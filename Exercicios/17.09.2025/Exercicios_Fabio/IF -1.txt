@@ -1,0 +1,35 @@
+Múltiplos e paridade
+Leia um inteiro n. Diga se ele é par e múltiplo de 3; se é par ou múltiplo de 5; e se não é múltiplo de 2 nem de 3.
+
+
+
+Maioridade e CNH
+Leia idade e tem_cnh ('S'/'N'). Imprima “Pode dirigir” se idade >= 18 and tem_cnh == 'S'; senão “Não pode”.
+
+
+
+Categoria de atleta (encadeado)
+Com base em idade, classifique: idade < 9 Mirim, 9–13 Infantil, 14–17 Juvenil, 18–39 Adulto, >=40 Master (use comparações do tipo 9 <= idade <= 13).
+
+
+
+Senha aceitável
+Leia uma senha. Ela é válida se len(senha) >= 8 e contém pelo menos uma letra e um dígito (use qualquer checagem simples). Imprima “OK” ou “Fraca”.
+
+
+
+Desconto/Juros por pagamento
+Leia preco, meio (pix, debito, credito) e parcelas.
+
+Se meio em (pix, debito): desconto de 10% se preco >= 100, senão 5%.
+Se meio == 'credito': se parcelas == 1, sem juros; se parcelas >= 2, acrescente 3% de juros. Imprima o valor final.
+
+
+
+Caractere: vogal maiúscula
+Leia um único caractere. Imprima “Vogal maiúscula”, “Vogal minúscula”, “Consoante” ou “Outro” (use in com tuplas e isalpha()).
+
+
+
+Radar com tolerância de chuva
+Leia vel, limite, chovendo (S/N). A tolerância é +10% do limite apenas se chover. Multa se vel > limite quando não chove ou vel > limite * 1.10 quando chove.
