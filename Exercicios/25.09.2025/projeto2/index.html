@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PDV Fast Food</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>Fast Food PDV</header>
+  <main>
+    <section class="menu">
+      <h2>Menu</h2>
+      <div id="product-list"></div>
+    </section>
+    <section class="order">
+      <h2>Pedido</h2>
+      <ul id="order-list"></ul>
+      <div class="total">
+        <span>Total:</span>
+        <span id="total-price">R$ 0,00</span>
+      </div>
+      <button id="finish-order">Finalizar Pedido</button>
+    </section>
+    <section class="payment">
+      <h2>Pagamento</h2>
+      <form id="payment-form">
+        <label>
+          <input type="radio" name="payment" value="dinheiro" checked />
+          Dinheiro
+        </label>
+        <label>
+          <input type="radio" name="payment" value="cartao" />
+          Cartão
+        </label>
+        <label>
+          <input type="radio" name="payment" value="pix" />
+          Pix
+        </label>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

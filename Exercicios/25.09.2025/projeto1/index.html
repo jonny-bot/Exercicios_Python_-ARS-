@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - PDV Fast-Food</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login de Funcionário</h1>
+    <form onsubmit="return fazerLogin()">
+      <input type="text" id="usuario" placeholder="Usuário" required>
+      <input type="password" id="senha" placeholder="Senha" required>
+      <button type="submit">Entrar</button>
+    </form>
+    <p id="mensagemErro" class="erro"></p>
+  </div>
+
+  <script src="dados.js"></script>
+  <script src="login.js"></script>
+</body>
+</html>

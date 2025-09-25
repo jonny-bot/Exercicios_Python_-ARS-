@@ -1,0 +1,223 @@
+/* cole aqui o CSS que mandei anteriormente, para garantir alinhamento e visual padrão */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  background: linear-gradient(135deg, #ff7043, #ffccbc);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #3e2723;
+}
+header {
+  background-color: #bf360c;
+  color: #fff;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px auto;
+  gap: 30px;
+  padding: 0 20px 50px;
+}
+.menu, .order, .payment {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+  padding: 30px 25px;
+  flex: 1;
+  min-width: 300px;
+}
+h2 {
+  color: #bf360c;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border-bottom: 3px solid #ff7043;
+  padding-bottom: 12px;
+  margin-bottom: 25px;
+}
+#product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 5px;
+  overflow-x: hidden; /* Evita scroll horizontal */
+}
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+  border-radius: 12px;
+  background: linear-gradient(45deg, #ffe0b2, #ffcc80);
+  box-shadow: 0 4px 12px rgba(191, 54, 12, 0.3);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  flex-wrap: nowrap; /* Mantém tudo na mesma linha */
+}
+.product > div:first-child {
+  flex: 1 1 auto;
+  min-width: 0; /* Permite truncar o texto */
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.product-name {
+  font-weight: 700;
+  font-size: 1.3rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-price {
+  color: #bf360c;
+  margin-top: 6px;
+  font-weight: 600;
+}
+.product-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+.product-actions input[type="number"] {
+  width: 60px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 2px solid #bf360c;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  -moz-appearance: textfield;
+}
+.product-actions input[type="number"]::-webkit-inner-spin-button,
+.product-actions input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.product-actions button {
+  background-color: #bf360c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+  min-width: 110px;
+}
+.product-actions button:hover {
+  background-color: #d84315;
+}
+.order ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+  overflow-y: auto;
+  max-height: 360px;
+  border-radius: 10px;
+  border: 1.5px solid #ffccbc;
+  background-color: #fff3e0;
+}
+.order li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 20px;
+  border-bottom: 1px solid #ffccbc;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #5d4037;
+  flex-wrap: wrap;
+}
+.order li .qty {
+  color: #bf360c;
+  font-weight: bold;
+  margin-right: 10px;
+  min-width: 40px;
+}
+.order li span {
+  flex: 1;
+  min-width: 80px;
+}
+.remove-btn {
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.total {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #bf360c;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 10px;
+  border-top: 3px solid #ff7043;
+}
+#finish-order {
+  background-color: #43a047;
+  color: white;
+  border: none;
+  padding: 18px 0;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.3rem;
+  width: 100%;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+#finish-order:hover {
+  background-color: #2e7d32;
+  transform: scale(1.05);
+}
+#payment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#payment-form label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #5d4037;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#payment-form input[type="radio"] {
+  accent-color: #bf360c;
+  width: 18px;
+  height: 18px;
+}
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    max-width: 95%;
+  }
+}
