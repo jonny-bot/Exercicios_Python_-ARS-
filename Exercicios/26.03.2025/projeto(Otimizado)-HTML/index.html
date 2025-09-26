@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icons8-programmer-24.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Calculadora de IMC com JSON</h1>
+
+    <div id="status">Carregando dados...</div>
+
+    <div class="buttons">
+        <button onclick="mostrarTodos()" disabled>Mostrar Todos</button>
+        <button onclick="mostrarIMC()" disabled>IMC de Todos</button>
+        <button onclick="imcHomens()" disabled>IMC Homens</button>
+        <button onclick="imcMulheres()" disabled>IMC Mulheres</button>
+        <button onclick="mediaIMCHomens()" disabled>Média IMC Homens</button>
+        <button onclick="mediaIMCMulheres()" disabled>Média IMC Mulheres</button>
+        <button onclick="pessoaAltaBaixa()" disabled>Mais Alto/Baixo</button>
+    </div>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

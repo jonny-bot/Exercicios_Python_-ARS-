@@ -1,0 +1,63 @@
+import json
+
+def carregar_usuarios(caminho='Exercicios_JSON/exercicio1.json'):
+    with open(caminho, 'r', encoding='utf-8') as arquivo:
+        return json.load(arquivo)
+
+def calcular_imc(peso, altura):
+    return peso / (altura ** 2)
+
+def classificar_imc(imc):
+    if imc <= 18.5:
+        return 'abaixo do peso'
+    elif imc <= 25:
+        return 'peso normal'
+    else:
+        return 'sobrepeso'
+
+def mostrar_usuarios(usuarios):
+    for u in usuarios:
+        print(u['nome'], u['idade'], u['homem'], u['peso'], u['altura'])
+
+def mostrar_imc(usuarios, filtro=None):
+    for u in usuarios:
+        if filtro is None or u['homem'] == filtro:
+            imc = calcular_imc(u['peso'], u['altura'])
+            status = classificar_imc(imc)
+            print(f"{u['nome']} tem IMC {imc:.2f} e está {status}")
+
+def media_imc(usuarios, filtro):
+    imcs = [calcular_imc(u['peso'], u['altura']) for u in usuarios if u['homem'] == filtro]
+    nomes = [u['nome'] for u in usuarios if u['homem'] == filtro]
+
+    for nome, imc in zip(nomes, imcs):
+        print(f"{nome} tem IMC {imc:.2f} e está {classificar_imc(imc)}")
+
+    if imcs:
+        media = sum(imcs) / len(imcs)
+        genero = 'Homens' if filtro else 'Mulheres'
+        print(f"A média de IMC dos {genero} é: {media:.2f}")
+
+def pessoa_alta_baixa(usuarios):
+    mais_alta = max(usuarios, key=lambda u: u['altura'])
+    mais_baixa = min(usuarios, key=lambda u: u['altura'])
+
+    print(f"A pessoa mais baixa é {mais_baixa['nome']} com {mais_baixa['altura']} cm.")
+    print(f"A pessoa mais alta é {mais_alta['nome']} com {mais_alta['altura']} cm.")
+
+# Execução
+usuarios = carregar_usuarios()
+
+mostrar_usuarios(usuarios)
+print('=======//=======')
+mostrar_imc(usuarios)
+print('=======//=======')
+mostrar_imc(usuarios, filtro=True)
+print('=======//=======')
+mostrar_imc(usuarios, filtro=False)
+print('=======//=======')
+media_imc(usuarios, filtro=True)
+print('=======//=======')
+media_imc(usuarios, filtro=False)
+print('=======//=======')
+pessoa_alta_baixa(usuarios)

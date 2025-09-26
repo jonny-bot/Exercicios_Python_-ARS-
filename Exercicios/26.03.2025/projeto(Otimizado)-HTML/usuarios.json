@@ -1,0 +1,28 @@
+[
+  {"nome": "João", "idade": 30, "homem": true, "peso": 100, "altura": 1.60},
+  {"nome": "Maria", "idade": 25, "homem": false, "peso": 50, "altura": 1.50},
+  {"nome": "Jessica", "idade": 18, "homem": false, "peso": 45, "altura": 1.45},
+  {"nome": "Carlos", "idade": 35, "homem": true, "peso": 70, "altura": 1.80},
+  {"nome": "Pedro", "idade": 12, "homem": false, "peso": 20, "altura": 1.50},
+  {"nome": "Fabio", "idade": 37, "homem": true, "peso": 80, "altura": 1.75},
+  {"nome": "Arthur", "idade": 21, "homem": false, "peso": 95, "altura": 1.85},
+  {"nome": "Gordo", "idade": 99, "homem": false, "peso": 5000, "altura": 1.20},
+  
+  {"nome": "Ana", "idade": 28, "homem": false, "peso": 60, "altura": 1.65},
+  {"nome": "Bruno", "idade": 40, "homem": true, "peso": 85, "altura": 1.78},
+  {"nome": "Clara", "idade": 22, "homem": false, "peso": 55, "altura": 1.60},
+  {"nome": "Diego", "idade": 33, "homem": true, "peso": 90, "altura": 1.82},
+  {"nome": "Elisa", "idade": 19, "homem": false, "peso": 48, "altura": 1.55},
+  {"nome": "Fernando", "idade": 45, "homem": true, "peso": 95, "altura": 1.75},
+  {"nome": "Gabriela", "idade": 27, "homem": false, "peso": 58, "altura": 1.62},
+  {"nome": "Henrique", "idade": 31, "homem": true, "peso": 77, "altura": 1.80},
+  {"nome": "Isabela", "idade": 24, "homem": false, "peso": 52, "altura": 1.58},
+  {"nome": "João Pedro", "idade": 29, "homem": true, "peso": 82, "altura": 1.77},
+  {"nome": "Karla", "idade": 26, "homem": false, "peso": 63, "altura": 1.68},
+  {"nome": "Leonardo", "idade": 38, "homem": true, "peso": 88, "altura": 1.85},
+  {"nome": "Mariana", "idade": 23, "homem": false, "peso": 54, "altura": 1.63},
+  {"nome": "Nicolas", "idade": 35, "homem": true, "peso": 75, "altura": 1.79},
+  {"nome": "Olivia", "idade": 21, "homem": false, "peso": 47, "altura": 1.57},
+  {"nome": "Paulo", "idade": 32, "homem": true, "peso": 80, "altura": 1.76}
+
+]
