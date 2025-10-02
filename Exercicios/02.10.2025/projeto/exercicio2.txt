@@ -1,0 +1,99 @@
+Exercício: Quiz de Conhecimentos (com perguntas em JSON)
+Objetivo
+Crie um quiz de perguntas de múltipla escolha carregadas de um arquivo perguntas.json. O programa deve:
+Perguntar quantas questões o usuário quer responder (entre 1 e o total disponível).
+
+
+Sortear as perguntas (sem repetir) e, para cada uma: - ok
+
+
+Mostrar enunciado e alternativas numeradas (1…n). - ok
+
+
+Ler a resposta do usuário com validação (apenas números válidos). -ok
+
+
+Contar acertos e erros e registrar a categoria da pergunta. - ok
+
+
+Ao final, exibir um relatório:
+
+
+Quantidade de acertos, erros e % de acerto. - ok
+
+
+Desempenho por categoria (ex.: “História: 2/3 – 66.67%”).
+
+
+(Opcional) Listar as questões que o usuário errou, mostrando a alternativa correta.
+
+
+Regras/Dicas
+Use random.sample para sortear as perguntas sem repetir.
+
+
+Garanta entradas válidas com while True + try/except.
+
+
+O campo "correta" no JSON é 1-baseado (isto é, 1, 2, 3, 4…).
+
+
+Use estruturas como:
+
+
+acertos_total, erros_total
+
+
+estat_categoria = {categoria: {"feitas": 0, "acertos": 0}}
+
+
+erros_detalhe = [] (lista das perguntas erradas)
+
+Requisitos mínimos do seu código
+Ler e carregar o JSON (lista de perguntas).
+
+
+Perguntar “quantas perguntas quer responder?” e validar. - ok
+
+
+Em cada pergunta:
+
+
+Mostrar pergunta + listar opcoes (1 a N). - ok
+
+
+Ler resposta válida (1…N). - ok
+
+
+Conferir com correta. - ok
+
+
+Atualizar contadores gerais e por categoria.
+
+
+No fim:
+
+
+Mostrar placar (acertos, erros, %). - ok
+
+
+Mostrar as perguntas que errou com a resposta certa. - ok
+
+
+
+
+EXEMPLO DE USO
+
+import random
+import json
+
+with open('arquivos_json/perguntas.json', 'r', encoding='utf-8') as f:
+    perguntas = json.load(f)
+
+perguntas = random.sample(perguntas, 5) # sample pega uma amostra, nesse caso do perguntas pegando 5 itens
+for indice, item in enumerate(perguntas):
+    categoria = item.get("categoria")
+    pergunta = item.get("pergunta")
+    # assim por diante
+    print(f'{indice}: {categoria}')
+    print(f'{indice}: {pergunta}')
