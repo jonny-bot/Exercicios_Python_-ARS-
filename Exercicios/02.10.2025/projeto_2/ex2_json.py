@@ -31,12 +31,16 @@ for indice, item in enumerate(perguntas):
     print('============ x ============')
     resposta_correta = str(input('Qual a sua resposta correta: '))
 
-    lista = ["1","2","3","4"]
-
-    while resposta_correta not in lista:
-
-        print('Apenas Números Válidos')
-        resposta_correta = str(input('Qual a sua resposta correta: '))
+    while True:
+        try:
+            resposta_correta = int(input("Digite um número inteiro entre 1 e 4: "))
+            if resposta_correta in (1, 2, 3, 4):
+                print(f"Você digitou um número válido: {resposta_correta}")
+                break  # Sai do loop se a entrada for válida
+            else:
+                print(f"Você digitou: {resposta_correta}, que não está entre 1 e 4. Tente novamente.")
+        except ValueError:
+            print("Entrada inválida. Por favor, digite um número inteiro.")
 
     if int(resposta_correta) == correta:
         print('A resposta está correta!!!')
