@@ -1,0 +1,27 @@
+[
+    {
+        "Nome do Funcionário": "JOAO",
+        "Tipo de Ponto": "Entrada do Trabalho",
+        "Data/Hora": "08/10/2025 08:03:12"
+    },
+    {
+        "Nome do Funcionário": "MARIA",
+        "Tipo de Ponto": "Volta do Almoço",
+        "Data/Hora": "08/10/2025 13:14:55"
+    },
+    {
+        "Nome do Funcionário": "ANA",
+        "Tipo de Ponto": "Volta do Almoço",
+        "Data/Hora": "08/10/2025 13:13:53"
+    },
+    {
+        "Nome do Funcionário": "JOAO",
+        "Tipo de Ponto": "Volta do Almoço",
+        "Data/Hora": "08/10/2025 13:14:04"
+    },
+    {
+        "Nome do Funcionário": "JOAO",
+        "Tipo de Ponto": "Volta do Almoço",
+        "Data/Hora": "08/10/2025 13:21:01"
+    }
+]
