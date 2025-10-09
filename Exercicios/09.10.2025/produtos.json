@@ -1,0 +1,37 @@
+[
+  {
+    "id": 201,
+    "produto": "Arroz Branco Tipo 1 - 5kg",
+    "preco": 22.49
+  },
+  {
+    "id": 202,
+    "produto": "Feijão Carioca - 1kg",
+    "preco": 8.99
+  },
+  {
+    "id": 203,
+    "produto": "Óleo de Soja - 900ml",
+    "preco": 6.75
+  },
+  {
+    "id": 204,
+    "produto": "Leite Integral - 1L",
+    "preco": 4.39
+  },
+  {
+    "id": 205,
+    "produto": "Café Torrado e Moído - 500g",
+    "preco": 12.99
+  },
+  {
+    "id": 206,
+    "produto": "Sabão em Pó - 1.6kg",
+    "preco": 18.90
+  },
+  {
+    "id": 207,
+    "produto": "Detergente Líquido - 500ml",
+    "preco": 2.49
+  }
+]
