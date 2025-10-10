@@ -1,0 +1,49 @@
+<HTML>
+	<HEAD>
+		<META charset="UTF-8">
+		<TITLE>Casa Automatizada</TITLE>
+		<SCRIPT LANGUAGE="JavaScript">
+
+			function Posicao(event){
+
+				let x = event.offsetX;
+				let y = event.offsetY;
+
+				if(x > 23 && y > 25 && x < 201 && y < 235){
+
+					alert("Quarto de casal!");
+
+				} else if(x > 23 && y > 236 && x < 220 && y < 393){
+
+					alert("Quarto de solteiro!");
+
+				} else if(x > 301 && y > 114 && x < 425 && y < 237){
+
+					alert("Cozinha!")
+
+				} else if(x > 300 && y > 31 && x < 427 && y < 103){
+
+					alert("Serviço!")
+
+				} else if(x > 235 && y > 303 && x < 429 && y < 495){
+
+					alert("Sala!")
+
+				} else {					
+
+					alert("Nenhum cômodo identificado mas a posição clicada é X = " + x + " e Y = " + y);
+
+				}
+
+
+
+
+			}
+
+		</SCRIPT>
+	</HEAD>
+	<BODY STYLE="background-color: lightblue;">
+		<H1>Clique sobre a planta para identificar o cômodo</h1>
+		<IMG SRC="planta.jpg" onclick="Posicao(event);">
+	</BODY>
+</HTML>
