@@ -1,0 +1,68 @@
+[
+  {
+    "categoria": "Matemática",
+    "pergunta": "Quanto é 7 x 8?",
+    "opcoes": ["54", "56", "64", "58"],
+    "correta": 2
+  },
+  {
+    "categoria": "Geografia",
+    "pergunta": "Qual é a capital do Brasil?",
+    "opcoes": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+    "correta": 3
+  },
+  {
+    "categoria": "História",
+    "pergunta": "Em que ano ocorreu a Independência do Brasil?",
+    "opcoes": ["1500", "1822", "1889", "1964"],
+    "correta": 2
+  },
+  {
+    "categoria": "Ciência",
+    "pergunta": "Qual planeta é conhecido como o 'planeta vermelho'?",
+    "opcoes": ["Vênus", "Marte", "Júpiter", "Saturno"],
+    "correta": 2
+  },
+  {
+    "categoria": "Português",
+    "pergunta": "Qual é o plural de 'cidadão'?",
+    "opcoes": ["cidadões", "cidadãos", "cidadães", "cidadãons"],
+    "correta": 2
+  },
+  {
+    "categoria": "Tecnologia",
+    "pergunta": "O que significa a sigla 'CPU'?",
+    "opcoes": ["Central Processing Unit", "Core Primary Unit", "Computer Public Unit", "Central Program Unit"],
+    "correta": 1
+  },
+  {
+    "categoria": "Esportes",
+    "pergunta": "Quantos jogadores um time de futebol tem em campo?",
+    "opcoes": ["9", "10", "11", "12"],
+    "correta": 3
+  },
+  {
+    "categoria": "Arte",
+    "pergunta": "Quem pintou a Mona Lisa?",
+    "opcoes": ["Michelangelo", "Leonardo da Vinci", "Rafael", "Donatello"],
+    "correta": 2
+  },
+  {
+    "categoria": "Entretenimento",
+    "pergunta": "Qual destes é um gênero de filme?",
+    "opcoes": ["Bossa Nova", "Ficção científica", "Cubismo", "Barroco"],
+    "correta": 2
+  },
+  {
+    "categoria": "Entretenimento",
+    "pergunta": "Quanto pesa a Thais Carla?",
+    "opcoes": ["Muito", "Bastante", "Um absurdo", "12"],
+    "correta": 2
+  },
+  {
+    "categoria": "Lógica",
+    "pergunta": "Se todo A é B e todo B é C, então todo A é…",
+    "opcoes": ["C", "B", "A", "D"],
+    "correta": 1
+  }
+]
