@@ -1,0 +1,36 @@
+def transferir_dinheiro(origem, destino, valor):
+    conn = sqlite3.connect('conta_bancaria.db')
+    cursor = conn.cursor()
+
+    cursor.execute("SELECT * FROM conta_bancaria WHERE nome = ?", (origem,))
+    conta_origem = cursor.fetchone()
+    if not conta_origem:
+        print("Conta de origem não encontrada.")
+        conn.close()
+        return
+
+    cursor.execute("SELECT * FROM conta_bancaria WHERE nome = ?", (destino,))
+    conta_destino = cursor.fetchone()
+    if not conta_destino:
+        print("Conta de destino não encontrada.")
+        conn.close()
+        return
+
+    saldo_origem = conta_origem[3]
+    if saldo_origem < valor:
+        print("Saldo insuficiente para realizar a transferência.")
+        conn.close()
+        return
+
+    novo_saldo_origem = saldo_origem - valor
+    novo_saldo_destino = conta_destino[3] + valor
+
+    cursor.execute("UPDATE conta_bancaria SET saldo = ? WHERE nome = ?", (novo_saldo_origem, origem))
+    cursor.execute("UPDATE conta_bancaria SET saldo = ? WHERE nome = ?", (novo_saldo_destino, destino))
+
+    conn.commit()
+    conn.close()
+
+    print(f"Transferência de R$ {valor:.2f} realizada com sucesso.")
+    print(f"Novo saldo de {origem}: R$ {novo_saldo_origem:.2f}")
+    print(f"Novo saldo de {destino}: R$ {novo_saldo_destino:.2f}")
