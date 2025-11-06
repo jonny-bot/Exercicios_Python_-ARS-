@@ -1,0 +1,19 @@
+def emitir_estrato(extrato_nome):
+    conexao = sqlite3.connect('conta_bancaria.db')
+    cursor = conexao.cursor()
+
+    cursor.execute("SELECT * FROM conta_bancaria WHERE nome = ?", (extrato_nome,))
+    resultado = cursor.fetchone()
+
+    if resultado:
+        print(f"\nExtrato da Conta:\nID: {resultado[0]}\nNome: {resultado[1]}\nSaldo: R$ {resultado[3]:.2f}\n")
+    else:
+        print("Conta não encontrada.")
+
+    conexao.commit()
+    conexao.close()
+
+
+if opcoes == 6:
+	extrato_nome = input('Digite o Nome da Conta: ')
+	emitir_estrato(extrato_nome)

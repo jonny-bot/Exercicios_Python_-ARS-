@@ -1,0 +1,19 @@
+def calcular_notas(valor):
+    notas = [100, 50, 20, 10, 5]
+    resultado = {}
+
+    for nota in notas:
+        quantidade = valor // nota
+        if quantidade > 0:
+            resultado[nota] = quantidade
+            valor -= quantidade * nota
+
+    return resultado
+
+
+valor = int(input("Digite o valor: "))
+notas_retiradas = calcular_notas(valor)
+
+print("Notas retiradas:")
+for nota, quantidade in notas_retiradas.items():
+    print(f"{quantidade} nota(s) de R$ {nota}")
