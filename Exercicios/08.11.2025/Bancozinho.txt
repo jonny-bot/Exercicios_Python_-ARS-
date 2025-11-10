@@ -1,0 +1,154 @@
+// Tabela de Metadados (para validação do banco)
+    await db.execute('''
+      CREATE TABLE metadata (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        app_signature TEXT NOT NULL,
+        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+      );
+    ''');
+    await db.insert('metadata', {'app_signature': 'binho_app_v4'});
+
+    // Tabela de Locais
+    await db.execute('''
+      CREATE TABLE banco_fazendas (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nome TEXT NOT NULL,
+        cidade TEXT,
+        responsavel TEXT,
+        observacoes TEXT,
+        endereco TEXT,
+        telefone TEXT,
+        created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+      );
+    ''');
+
+    // Tabela de Animais
+    await db.execute('''
+      CREATE TABLE animais (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        brinco TEXT UNIQUE NOT NULL,
+        especie TEXT,
+        raca TEXT,
+        pai TEXT,
+        mae TEXT,
+        data_nascimento DATE,
+        data_compra DATE,
+        sexo TEXT CHECK(sexo IN ('M','F')),
+        bezerro TEXT CHECK(bezerro IN ('Sim','Não')),
+        prenha TEXT CHECK(prenha IN ('Sim','Não')),
+        doente TEXT CHECK(doente IN ('Sim','Não')),
+        tipo TEXT,
+        usuario TEXT,
+        id_fazenda INTEGER NOT NULL,
+        data_inclusao DATETIME DEFAULT CURRENT_TIMESTAMP,
+        observacoes TEXT,
+        FOREIGN KEY (id_fazenda) REFERENCES banco_fazendas(id) ON DELETE CASCADE
+      );
+    ''');
+
+    // Tabela de Pesagens (registro de pesagem vinculado ao animal)
+    await db.execute('''
+      CREATE TABLE pesagens (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id_animal INTEGER NOT NULL,
+        local TEXT,
+        lote TEXT,
+        cocho TEXT,
+        dieta TEXT,
+        data_hora DATETIME DEFAULT CURRENT_TIMESTAMP,
+        peso NUMERIC(10,3) NOT NULL,
+        observacao_pesagem TEXT,
+        usuario TEXT,
+        FOREIGN KEY (id_animal) REFERENCES animais(id) ON DELETE CASCADE
+      );
+    ''');
+
+    // Tabela de Registro de Vacina
+    await db.execute('''
+      CREATE TABLE registro_vacina (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id_animal INTEGER NOT NULL,
+        data_hora DATETIME DEFAULT CURRENT_TIMESTAMP,
+        vacina TEXT,
+        observacao_vacina TEXT,
+        usuario TEXT,
+        FOREIGN KEY (id_animal) REFERENCES animais(id) ON DELETE CASCADE
+      );
+    ''');
+
+    // Tabela de Registro de Doença
+    await db.execute('''
+      CREATE TABLE registro_doenca (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id_animal INTEGER NOT NULL,
+        data_hora DATETIME DEFAULT CURRENT_TIMESTAMP,
+        doenca TEXT,
+        observacao_doenca TEXT,
+        usuario TEXT,
+        FOREIGN KEY (id_animal) REFERENCES animais(id) ON DELETE CASCADE
+      );
+    ''');
+
+    // Tabela de Registro de Observações do Animal
+    await db.execute('''
+      CREATE TABLE registro_observacao (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        id_animal INTEGER NOT NULL,
+        data_hora DATETIME DEFAULT CURRENT_TIMESTAMP,
+        observacao TEXT,
+        usuario TEXT,
+        FOREIGN KEY (id_animal) REFERENCES animais(id) ON DELETE CASCADE
+      );
+    ''');
+
+    // Tabela de Tipos
+    await db.execute('''
+      CREATE TABLE tipos (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        tipo TEXT NOT NULL UNIQUE
+      );
+    ''');
+
+    // Tabela de Configuração da Arroba
+    await db.execute('''
+      CREATE TABLE arroba_config (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        peso NUMERIC NOT NULL,
+        valor NUMERIC NOT NULL
+      );
+    ''');
+
+    // Tabela de Lotes
+    await db.execute('''
+      CREATE TABLE lotes (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nome TEXT NOT NULL UNIQUE
+      );
+    ''');
+
+    // Tabela de Vacinas
+    await db.execute('''
+      CREATE TABLE vacinas (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nome TEXT NOT NULL UNIQUE
+      );
+    ''');
+
+    // Tabela de Cochos
+    await db.execute('''
+      CREATE TABLE cochos (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nome TEXT NOT NULL UNIQUE
+      );
+    ''');
+
+    // Tabela de Dietas
+    await db.execute('''
+      CREATE TABLE dietas (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        nome TEXT NOT NULL UNIQUE
+      );
+    ''');
+
+
+Bancozinho
