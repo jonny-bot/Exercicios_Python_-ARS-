@@ -1,0 +1,50 @@
+[
+  {
+    "login": "Joao",
+    "senha": "ars@3103",
+    "situacao": "ativo",
+    "saldo": 1000.00
+  },
+  {
+    "login": "Maria",
+    "senha": "m@r1a2025",
+    "situacao": "ativo",
+    "saldo": 2500.50
+  },
+  {
+    "login": "Carlos",
+    "senha": "c@rl0s#99",
+    "situacao": "inativo",
+    "saldo": 0.00
+  },
+  {
+    "login": "Ana",
+    "senha": "an@123",
+    "situacao": "ativo",
+    "saldo": 780.75
+  },
+  {
+    "login": "Pedro",
+    "senha": "p3dr0!xyz",
+    "situacao": "bloqueado",
+    "saldo": 150.00
+  },
+  {
+    "login": "Fernanda",
+    "senha": "f3rn@nda",
+    "situacao": "ativo",
+    "saldo": 3200.00
+  },
+  {
+    "login": "Lucas",
+    "senha": "luc@s#2024",
+    "situacao": "ativo",
+    "saldo": 50.25
+  },
+  {
+    "login": "Beatriz",
+    "senha": "b3@triz",
+    "situacao": "inativo",
+    "saldo": 0.00
+  }
+]
