@@ -1,0 +1,29 @@
+[
+  {
+    "pergunta": "Telefonou para a vítima?"
+  },
+  {
+    "pergunta": "Esteve no local do crime?"
+  },
+  {
+    "pergunta": "Mora perto da vítima?"
+  },
+  {
+    "pergunta": "Já trabalhou com a vítima?"
+  },
+  {
+    "pergunta": "Foi visto discutindo com a vítima recentemente?"
+  },
+  {
+    "pergunta": "Possui algum objeto da vítima em sua casa?"
+  },
+  {
+    "pergunta": "Tinha algum motivo para prejudicar a vítima?"
+  },
+  {
+    "pergunta": "Estava ausente no horário do crime?"
+  },
+  {
+    "pergunta": "Alguém o viu próximo ao local do crime?"
+  }
+]
