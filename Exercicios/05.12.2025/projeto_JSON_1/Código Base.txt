@@ -1,0 +1,10 @@
+import json
+
+with open('Exercicios_JSON/exercicio2.json', 'r', encoding='utf-8') as xyz:
+    usuarios = json.load(xyz)
+
+    for i in usuarios:
+        print(i['categoria'],
+              i['pergunta'],
+              i['opcoes'],
+              i['correta'],)
