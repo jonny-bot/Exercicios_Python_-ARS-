@@ -1,0 +1,11 @@
+id,nome,idade,cidade,curso,data_matricula,nota,aprovado
+1,João,25,São Paulo,Engenharia,2023-02-15,8.5,True
+2,Maria,30,Rio de Janeiro,Medicina,2022-09-10,9.2,True
+3,Pedro,22,Belo Horizonte,Direito,2023-01-20,7.8,True
+4,Ana,28,Curitiba,Engenharia,2022-08-05,8.9,True
+5,Lucas,24,Porto Alegre,Computação,2023-03-12,6.7,False
+6,Carla,27,Recife,Medicina,2022-11-25,9.5,True
+7,Fernando,29,Fortaleza,Direito,2023-04-18,7.2,True
+8,Sofia,23,São Paulo,Computação,2023-05-30,8.8,True
+9,Rafael,26,Curitiba,Engenharia,2022-07-22,7.9,True
+10,Beatriz,31,Rio de Janeiro,Medicina,2023-06-14,9.7,True
