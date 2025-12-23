@@ -1,0 +1,11 @@
+ID_Pedido,Cliente,Produto,Categoria,Quantidade,Preço,Data
+1,Ana,Notebook,Eletrônicos,1,3500,2025-01-05
+2,Bruno,Mouse,Eletrônicos,2,80,2025-01-07
+3,Carlos,Camiseta,Vestuário,3,50,2025-01-10
+4,Diana,Smartphone,Eletrônicos,1,2500,2025-02-02
+5,Ana,Calça Jeans,Vestuário,2,120,2025-02-15
+6,Bruno,Monitor,Eletrônicos,1,900,2025-03-01
+7,Carlos,Tenis,Vestuário,1,300,2025-03-12
+8,Diana,Tablet,Eletrônicos,1,1500,2025-03-20
+9,Ana,Jaqueta,Vestuário,1,200,2025-04-05
+10,Bruno,Headset,Eletrônicos,1,250,2025-04-18
