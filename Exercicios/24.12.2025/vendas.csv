@@ -1,0 +1,21 @@
+ID,Data,Produto,Quantidade,Preço Unitário,Cliente
+1,2025-12-01,Camiseta,2,50,Ana Silva
+2,2025-12-02,Notebook,1,3500,Carlos Souza
+3,2025-12-03,Mouse,3,80,Mariana Costa
+4,2025-12-04,Celular,1,2200,Pedro Lima
+5,2025-12-05,Teclado Mecânico,2,300,Juliana Alves
+6,2025-12-06,Monitor 27",1,1200,Fernando Rocha
+7,2025-12-07,Fone Bluetooth,4,150,Patrícia Gomes
+8,2025-12-08,Impressora,1,950,Ricardo Mendes
+9,2025-12-09,Smartwatch,2,800,Sofia Martins
+10,2025-12-10,HD Externo 1TB,3,250,Lucas Ferreira
+11,2025-12-11,Tablet,1,1800,Beatriz Nunes
+12,2025-12-12,Cadeira Gamer,2,950,André Carvalho
+13,2025-12-13,Webcam Full HD,3,200,Clara Ribeiro
+14,2025-12-14,Microfone USB,2,350,Daniel Santos
+15,2025-12-15,Placa de Vídeo RTX 4070,1,4200,Marcelo Pires
+16,2025-12-16,SSD 1TB,2,450,Renata Almeida
+17,2025-12-17,Projetor,1,2500,Fábio Correia
+18,2025-12-18,Cafeteira Elétrica,1,600,Isabela Duarte
+19,2025-12-19,Console PlayStation 5,1,4800,Thiago Moreira
+20,2025-12-20,Kindle Paperwhite,2,650,Larissa Oliveira
