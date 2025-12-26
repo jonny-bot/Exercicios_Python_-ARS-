@@ -1,0 +1,11 @@
+ID,Produto,Categoria,Quantidade,Preco_Unitario,Data_Venda,Cidade
+1,Camiseta,Roupas,3,49.90,2025-01-05,São Paulo
+2,Notebook,Eletrônicos,1,3500.00,2025-01-06,Rio de Janeiro
+3,Smartphone,Eletrônicos,2,2200.00,2025-01-07,Belo Horizonte
+4,Tenis,Roupas,1,299.90,2025-01-08,Curitiba
+5,Livro,Entretenimento,5,39.90,2025-01-09,Recife
+6,Headphone,Eletrônicos,2,499.90,2025-01-10,Fortaleza
+7,Mouse,Eletrônicos,4,79.90,2025-01-11,Porto Alegre
+8,Chocolate,Alimentos,10,5.90,2025-01-12,Salvador
+9,Cadeira,Moveis,1,899.90,2025-01-13,Campinas
+10,Monitor,Eletrônicos,2,1200.00,2025-01-14,Florianópolis

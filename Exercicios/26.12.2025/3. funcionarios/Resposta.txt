@@ -1,0 +1,47 @@
+👔 Base 3: Funcionários e Salários
+Perguntas e respostas:
+
+Qual o salário médio dos funcionários?
+(
+4500
++
+7200
++
+9500
++
+5200
++
+3200
++
+12000
++
+3500
++
+6800
++
+6400
++
+15000
+)
+/
+10
+=
+7240
+  
+👉 Resposta: R$ 7.240,00
+
+Qual departamento tem maior salário médio?
+
+Financeiro: (4500 + 3200 + 15000) / 3 ≈ 7566.67
+
+Tecnologia: (7200 + 12000 + 6400) / 3 ≈ 8533.33
+
+RH: (9500 + 3500) / 2 = 6500
+
+Marketing: (5200 + 6800) / 2 = 6000
+👉 Resposta: Tecnologia (≈ R$ 8.533,33)
+
+Quem é o funcionário mais antigo?
+
+João Ferreira, admitido em 2015
+👉 Resposta: João Ferreira (Diretor Financeiro)

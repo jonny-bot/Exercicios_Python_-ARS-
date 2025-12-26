@@ -1,0 +1,11 @@
+ID,Nome,Idade,Departamento,Cargo,Salario,Data_Admissao,Cidade
+1,Ana Souza,28,Financeiro,Analista Financeiro,4500.00,2021-03-15,São Paulo
+2,Bruno Lima,35,Tecnologia,Desenvolvedor,7200.00,2019-07-10,Rio de Janeiro
+3,Carla Mendes,42,Recursos Humanos,Gerente de RH,9500.00,2018-01-20,Belo Horizonte
+4,Daniel Rocha,30,Marketing,Analista de Marketing,5200.00,2022-05-12,Curitiba
+5,Elisa Torres,26,Financeiro,Assistente Financeiro,3200.00,2023-09-01,Recife
+6,Felipe Martins,38,Tecnologia,Arquiteto de Sistemas,12000.00,2017-11-05,Fortaleza
+7,Gabriela Alves,29,Recursos Humanos,Assistente de RH,3500.00,2024-02-18,Porto Alegre
+8,Hugo Pereira,33,Marketing,Coordenador de Marketing,6800.00,2020-08-25,Salvador
+9,Isabela Nunes,31,Tecnologia,Analista de Dados,6400.00,2021-12-10,Campinas
+10,João Ferreira,45,Financeiro,Diretor Financeiro,15000.00,2015-06-30,Florianópolis

@@ -1,0 +1,24 @@
+📚 Base 2: Alunos e Notas
+Perguntas e respostas:
+
+Quantos alunos foram aprovados e quantos ficaram em recuperação?
+
+Aprovados: Ana, Carla, Elisa, Gabriela, Hugo, Isabela → 6
+
+Recuperação: Bruno, Daniel, Felipe, João → 4
+
+Qual a maior média registrada?
+
+Gabriela e Carla: 9.0
+👉 Resposta: 9.0
+
+Qual curso teve mais aprovados?
+
+Matemática: Ana + Gabriela → 2
+
+Física: Hugo → 1
+
+Química: Carla + Isabela → 2
+
+História: Elisa → 1
+👉 Resposta: Matemática e Química (2 cada)

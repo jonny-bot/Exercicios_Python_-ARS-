@@ -1,0 +1,80 @@
+✅ Respostas da Base de Vendas
+Média de preço unitário dos produtos
+
+49.90
++
+3500
++
+2200
++
+299.90
++
+39.90
++
+499.90
++
+79.90
++
+5.90
++
+899.90
++
+1200
+10
+≈
+977.23
+👉 R$ 977,23
+
+Quantidade total vendida por categoria
+
+Roupas: 3 + 1 = 4
+
+Eletrônicos: 1 + 2 + 2 + 4 + 2 = 11
+
+Entretenimento: 5
+
+Alimentos: 10
+
+Móveis: 1
+
+👉 Categoria campeã: Eletrônicos (11 unidades)
+
+Cidade com maior quantidade vendida
+
+Salvador: 10 chocolates
+👉 Salvador
+
+Produto mais caro (preço unitário)
+
+Notebook: R$ 3500,00
+👉 Notebook
+
+Produto mais barato (preço unitário)
+
+Chocolate: R$ 5,90
+👉 Chocolate
+
+Valor total de vendas (Quantidade × Preço_Unitário)
+
+Camiseta: 3 × 49.90 = 149.70
+
+Notebook: 1 × 3500 = 3500.00
+
+Smartphone: 2 × 2200 = 4400.00
+
+Tênis: 1 × 299.90 = 299.90
+
+Livro: 5 × 39.90 = 199.50
+
+Headphone: 2 × 499.90 = 999.80
+
+Mouse: 4 × 79.90 = 319.60
+
+Chocolate: 10 × 5.90 = 59.00
+
+Cadeira: 1 × 899.90 = 899.90
+
+Monitor: 2 × 1200 = 2400.00
+
+Total = 12,227.40  
+👉 R$ 12.227,40
