@@ -1,0 +1,25 @@
+📊 Explicação das colunas
+Data → quando a venda ocorreu
+
+Produto → nome do item vendido
+
+Categoria → agrupamento (ex.: eletrônicos, vestuário)
+
+Quantidade → número de unidades vendidas
+
+Preço Unitário → valor de cada unidade
+
+Cliente → comprador (opcional, pode ser anonimizado)
+
+Região → localização da venda
+
+Método de Pagamento → cartão, boleto, Pix etc.
+
+🔎 Como usar para análise
+Receita total = soma de Quantidade × Preço Unitário
+
+Ticket médio = receita total ÷ número de clientes
+
+Produtos mais vendidos = agrupamento por Produto ou Categoria
+
+Desempenho por região = agrupamento por Região
