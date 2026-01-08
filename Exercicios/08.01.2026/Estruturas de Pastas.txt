@@ -1,0 +1,28 @@
+meu_projeto_pandas/
+│
+├── data/                # Dados brutos e processados
+│   ├── raw/             # Dados originais (não modificados)
+│   ├── processed/       # Dados limpos e transformados
+│   └── external/        # Dados vindos de fontes externas (APIs, CSVs de terceiros)
+│
+├── notebooks/           # Jupyter Notebooks para exploração e protótipos
+│   ├── 01_exploracao.ipynb
+│   ├── 02_limpeza.ipynb
+│   └── 03_analise.ipynb
+│
+├── src/                 # Código Python reutilizável
+│   ├── __init__.py
+│   ├── utils.py         # Funções auxiliares (ex: carregamento de dados)
+│   ├── limpeza.py       # Funções de tratamento de dados
+│   └── analise.py       # Funções de análise
+│
+├── reports/             # Resultados e saídas
+│   ├── figuras/         # Gráficos gerados
+│   └── tabelas/         # Tabelas exportadas
+│
+├── tests/               # Testes automatizados para funções
+│   └── test_utils.py
+│
+├── requirements.txt     # Lista de pacotes necessários
+├── README.md            # Documentação inicial do projeto
+└── .gitignore           # Arquivos a serem ignorados no versionamento

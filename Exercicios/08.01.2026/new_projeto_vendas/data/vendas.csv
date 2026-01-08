@@ -1,0 +1,31 @@
+Data,ID_Produto,Produto,Quantidade,Preco_Unitario,Cliente,Pagamento,Vendedor
+2026-01-08,101,Camiseta,2,50,Ana Silva,Cartão,Marcos
+2026-01-08,102,Calça Jeans,1,120,Carlos Souza,Dinheiro,Luciana
+2026-01-09,103,Tênis,3,200,Mariana Costa,Pix,Roberto
+2026-01-09,104,Boné,5,30,Pedro Lima,Cartão,Juliana
+2026-01-10,105,Camiseta,1,50,Ana Silva,Pix,Luciana
+2026-01-10,106,Meias,10,15,Paula Ferreira,Dinheiro,Roberto
+2026-01-11,107,Relógio,2,500,Ricardo Gomes,Pix,Marcos
+2026-01-11,108,Mochila,1,180,Beatriz Santos,Cartão,Juliana
+2026-01-12,109,Óculos de Sol,2,250,Fernanda Lima,Cartão,Luciana
+2026-01-12,110,Chinelo,3,40,Lucas Martins,Dinheiro,Roberto
+2026-01-13,111,Blusa,2,90,Sofia Rocha,Pix,Marcos
+2026-01-13,112,Saia,1,110,Juliana Mendes,Cartão,Juliana
+2026-01-14,113,Carteira,2,70,André Carvalho,Dinheiro,Luciana
+2026-01-14,114,Cinto,1,60,Patrícia Nunes,Pix,Roberto
+2026-01-15,115,Perfume,1,220,Marcelo Teixeira,Cartão,Marcos
+2026-01-15,116,Camiseta,3,50,Ana Silva,Cartão,Juliana
+2026-01-16,117,Brinco,2,80,Carlos Souza,Dinheiro,Luciana
+2026-01-16,118,Jaqueta Jeans,1,280,Mariana Costa,Pix,Roberto
+2026-01-17,119,Chapéu,1,95,Pedro Lima,Cartão,Marcos
+2026-01-17,120,Calçado Social,1,350,Paula Ferreira,Pix,Juliana
+2026-01-18,121,Camiseta,2,50,Ana Silva,Dinheiro,Luciana
+2026-01-18,122,Shorts,3,70,Beatriz Santos,Cartão,Roberto
+2026-01-19,123,Jaqueta de Couro,1,600,Fernanda Lima,Pix,Marcos
+2026-01-19,124,Boné,2,30,Lucas Martins,Dinheiro,Juliana
+2026-01-20,125,Chaveiro,5,20,Sofia Rocha,Cartão,Luciana
+2026-01-20,126,Blusa de Frio,1,180,Juliana Mendes,Pix,Roberto
+2026-01-21,127,Calça Social,1,250,André Carvalho,Dinheiro,Marcos
+2026-01-21,128,Camiseta,4,50,Patrícia Nunes,Cartão,Juliana
+2026-01-22,129,Perfume,2,220,Marcelo Teixeira,Pix,Luciana
+2026-01-22,130,Tênis,1,200,Ana Silva,Cartão,Roberto

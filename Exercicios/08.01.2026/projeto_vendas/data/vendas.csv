@@ -1,0 +1,79 @@
+Data,Produto,Categoria,Quantidade,Preço Unitário,Cliente,Região,Método de Pagamento
+2026-01-05,Camiseta Básica,Vestuário,3,49.90,Ana Souza,São Paulo,Cartão de Crédito
+2026-01-05,Notebook X200,Eletrônicos,1,3500.00,Carlos Lima,Rio de Janeiro,Boleto
+2026-01-06,Smartphone Y,Eletrônicos,2,2200.00,Mariana Alves,Belo Horizonte,Pix
+2026-01-06,Tenis Esportivo,Vestuário,1,299.90,Pedro Santos,Curitiba,Cartão de Débito
+2026-01-07,Cafeteira Z,Utilidades,4,199.90,João Pereira,Porto Alegre,Cartão de Crédito
+2026-01-05,Camiseta Básica,Vestuário,3,49.90,Ana Souza,São Paulo,Cartão de Crédito
+2026-01-05,Notebook X200,Eletrônicos,1,3500.00,Carlos Lima,Rio de Janeiro,Boleto
+2026-01-06,Smartphone Y,Eletrônicos,2,2200.00,Mariana Alves,Belo Horizonte,Pix
+2026-01-06,Tenis Esportivo,Vestuário,1,299.90,Pedro Santos,Curitiba,Cartão de Débito
+2026-01-07,Cafeteira Z,Utilidades,4,199.90,João Pereira,Porto Alegre,Cartão de Crédito
+2026-01-07,Livro Python Essencial,Livros,5,89.90,Fernanda Costa,Recife,Pix
+2026-01-08,Headset Gamer H500,Eletrônicos,2,499.90,Lucas Almeida,Fortaleza,Cartão de Crédito
+2026-01-08,Blusa de Moletom,Vestuário,4,159.90,Juliana Ramos,Salvador,Boleto
+2026-01-09,Tablet Z10,Eletrônicos,1,1800.00,Rafael Martins,Campinas,Cartão de Débito
+2026-01-09,Panela Elétrica,Utilidades,3,249.90,Sofia Mendes,Florianópolis,Pix
+2026-01-10,Monitor UltraWide,Eletrônicos,2,1200.00,Thiago Rocha,Brasília,Cartão de Crédito
+2026-01-10,Chuteira Pro,Vestuário,1,399.90,André Silva,Curitiba,Boleto
+2026-01-11,Impressora Laser,Eletrônicos,1,950.00,Patrícia Gomes,São Paulo,Pix
+2026-01-11,Colchão Queen,Utilidades,1,2200.00,Marcelo Dias,Rio de Janeiro,Cartão de Crédito
+2026-01-12,Relógio Smart,Eletrônicos,3,799.90,Beatriz Nunes,Belo Horizonte,Cartão de Débito
+2026-01-12,Jaqueta Jeans,Vestuário,2,199.90,Daniel Ferreira,Porto Alegre,Pix
+2026-01-13,Micro-ondas Xpress,Utilidades,2,599.90,Carolina Lima,Salvador,Boleto
+2026-01-13,Mouse Sem Fio,Eletrônicos,5,129.90,Henrique Souza,Recife,Cartão de Crédito
+2026-01-14,Kindle Paper,Livros,2,699.90,Isabela Torres,Fortaleza,Pix
+2026-01-14,Calça Jeans,Vestuário,3,179.90,Gustavo Oliveira,Brasília,Cartão de Débito
+2026-01-15,Smart TV 55,Eletrônicos,1,3200.00,Renata Castro,São Paulo,Cartão de Crédito
+2026-01-15,Air Fryer Turbo,Utilidades,2,699.90,Luciana Prado,Campinas,Pix
+2026-01-16,Notebook Gamer Z500,Eletrônicos,1,5200.00,Fábio Almeida,Curitiba,Cartão de Crédito
+2026-01-16,Camisa Polo,Vestuário,3,129.90,Marcos Teixeira,Porto Alegre,Boleto
+2026-01-17,Smartwatch Fit,Eletrônicos,2,599.90,Aline Santos,Salvador,Cartão de Débito
+2026-01-17,Livro Data Science,Livros,4,119.90,Roberta Lima,Recife,Pix
+2026-01-18,Secador de Cabelo Pro,Utilidades,3,249.90,Cláudia Nogueira,Rio de Janeiro,Cartão de Crédito
+2026-01-18,Jaqueta de Couro,Vestuário,1,899.90,Diego Fernandes,São Paulo,Boleto
+2026-01-19,Console GameBox,Eletrônicos,1,2800.00,Paulo Henrique,Brasília,Pix
+2026-01-19,Churrasqueira Elétrica,Utilidades,2,499.90,Vanessa Costa,Fortaleza,Cartão de Crédito
+2026-01-20,Óculos de Sol,Vestuário,2,299.90,Bruno Oliveira,Belo Horizonte,Cartão de Débito
+2026-01-20,Livro Machine Learning,Livros,3,139.90,Sandra Ribeiro,Florianópolis,Boleto
+2026-01-21,Smartphone Z Ultra,Eletrônicos,1,4200.00,Renato Carvalho,Campinas,Pix
+2026-01-21,Colchão King,Utilidades,1,3200.00,Helena Martins,Curitiba,Cartão de Crédito
+2026-01-22,Blazer Masculino,Vestuário,2,499.90,João Batista,Porto Alegre,Pix
+2026-01-22,Impressora Multifuncional,Eletrônicos,1,1200.00,Patrícia Souza,São Paulo,Boleto
+2026-01-23,Kindle Oasis,Livros,2,999.90,Thiago Costa,Rio de Janeiro,Cartão de Crédito
+2026-01-23,Panela de Pressão Digital,Utilidades,1,399.90,Mariana Torres,Salvador,Pix
+2026-01-24,Jaqueta Esportiva,Vestuário,3,249.90,Fernando Rocha,Brasília,Cartão de Débito
+2026-01-24,Monitor 4K,Eletrônicos,2,2500.00,Isabela Mendes,Recife,Cartão de Crédito
+2026-01-25,Livro Inteligência Artificial,Livros,5,149.90,André Nunes,Fortaleza,Boleto
+2026-01-05,Camiseta Básica,Vestuário,3,49.90,Ana Souza,São Paulo,Cartão de Crédito
+2026-01-05,Notebook X200,Eletrônicos,1,3500.00,Carlos Lima,Rio de Janeiro,Boleto
+2026-01-06,Smartphone Y,Eletrônicos,2,2200.00,Mariana Alves,Belo Horizonte,Pix
+2026-01-06,Tenis Esportivo,Vestuário,1,299.90,Pedro Santos,Curitiba,Cartão de Débito
+2026-01-07,Cafeteira Z,Utilidades,4,199.90,João Pereira,Porto Alegre,Cartão de Crédito
+2026-01-07,Livro Python Essencial,Livros,5,89.90,Fernanda Costa,Recife,Pix
+2026-01-08,Headset Gamer H500,Eletrônicos,2,499.90,Lucas Almeida,Fortaleza,Cartão de Crédito
+2026-01-08,Blusa de Moletom,Vestuário,4,159.90,Juliana Ramos,Salvador,Boleto
+2026-01-09,Tablet Z10,Eletrônicos,1,1800.00,Rafael Martins,Campinas,Cartão de Débito
+2026-01-09,Panela Elétrica,Utilidades,3,249.90,Sofia Mendes,Florianópolis,Pix
+2026-01-10,Monitor UltraWide,Eletrônicos,2,1200.00,Thiago Rocha,Brasília,Cartão de Crédito
+2026-01-10,Chuteira Pro,Vestuário,1,399.90,André Silva,Curitiba,Boleto
+2026-01-11,Impressora Laser,Eletrônicos,1,950.00,Patrícia Gomes,São Paulo,Pix
+2026-01-11,Colchão Queen,Utilidades,1,2200.00,Marcelo Dias,Rio de Janeiro,Cartão de Crédito
+2026-01-12,Relógio Smart,Eletrônicos,3,799.90,Beatriz Nunes,Belo Horizonte,Cartão de Débito
+2026-01-12,Jaqueta Jeans,Vestuário,2,199.90,Daniel Ferreira,Porto Alegre,Pix
+2026-01-13,Micro-ondas Xpress,Utilidades,2,599.90,Carolina Lima,Salvador,Boleto
+2026-01-13,Mouse Sem Fio,Eletrônicos,5,129.90,Henrique Souza,Recife,Cartão de Crédito
+2026-01-14,Kindle Paper,Livros,2,699.90,Isabela Torres,Fortaleza,Pix
+2026-01-14,Calça Jeans,Vestuário,3,179.90,Gustavo Oliveira,Brasília,Cartão de Débito
+2026-01-15,Smart TV 55,Eletrônicos,1,3200.00,Renata Castro,São Paulo,Cartão de Crédito
+2026-01-15,Air Fryer Turbo,Utilidades,2,699.90,Luciana Prado,Campinas,Pix
+2026-01-16,Notebook Gamer Z500,Eletrônicos,1,5200.00,Fábio Almeida,Curitiba,Cartão de Crédito
+2026-01-16,Camisa Polo,Vestuário,3,129.90,Marcos Teixeira,Porto Alegre,Boleto
+2026-01-17,Smartwatch Fit,Eletrônicos,2,599.90,Aline Santos,Salvador,Cartão de Débito
+2026-01-17,Livro Data Science,Livros,4,119.90,Roberta Lima,Recife,Pix
+2026-01-18,Secador de Cabelo Pro,Utilidades,3,249.90,Cláudia Nogueira,Rio de Janeiro,Cartão de Crédito
+2026-01-18,Jaqueta de Couro,Vestuário,1,899.90,Diego Fernandes,São Paulo,Boleto
+2026-01-19,Console GameBox,Eletrônicos,1,2800.00,Paulo Henrique,Brasília,Pix
+2026-01-19,Churrasqueira Elétrica,Utilidades,2,499.90,Vanessa Costa,Fortaleza,Cartão de Crédito
+2026-01-20,Óculos de Sol,Vestuário,2,299.90,Bruno Oliveira,Belo Horizonte,Cartão de Débito
+2026-01-20,Livro Machine Learning,Livros,3,139.90,Sandra Ribeiro,Florianópolis,Boleto
