@@ -1,0 +1,1 @@
+Crie um arquivo CSV de vendas. O arquivo deve as seguintes colunas: data_compra,id_produto,nome_produto,cliente,pagamento,vendedor,quantidade_vendida,preco_unitario. Os dados podem ser aleatorios e fictícios, mas para deixar mais realista podem se repetir. E de conter 50 linhas de dados.
