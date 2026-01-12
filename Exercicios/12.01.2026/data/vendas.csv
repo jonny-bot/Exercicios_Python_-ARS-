@@ -1,0 +1,41 @@
+data_compra,id_produto,nome_produto,cliente,pagamento,vendedor,quantidade_vendida,preco_unitario
+2026-01-02,101,Camiseta Polo,Carlos Silva,Cartão,Mariana,4,79.90
+2026-01-03,102,Notebook Dell,Ana Souza,Boleto,João,1,3499.00
+2026-01-03,103,Smartphone Samsung,Pedro Lima,Pix,Mariana,2,2299.00
+2026-01-04,104,Mouse Gamer,Julia Santos,Cartão,Roberto,7,149.90
+2026-01-04,105,Teclado Mecânico,Fernanda Costa,Cartão,Mariana,3,399.00
+2026-01-05,106,Fone Bluetooth,Lucas Almeida,Pix,João,5,299.00
+2026-01-05,107,Monitor LG,Beatriz Rocha,Boleto,Roberto,2,899.00
+2026-01-06,108,Impressora HP,Marcelo Dias,Cartão,Mariana,3,599.00
+2026-01-06,109,Cadeira Gamer,Patrícia Melo,Pix,João,3,1299.00
+2026-01-07,110,Tablet Apple,Renato Nunes,Cartão,Mariana,2,2999.00
+2026-01-08,111,Smartwatch Garmin,Carla Ferreira,Pix,Roberto,1,1599.00
+2026-01-08,112,Headset HyperX,Diego Martins,Cartão,Mariana,6,499.00
+2026-01-09,113,HD Externo 1TB,Luciana Prado,Boleto,João,4,349.00
+2026-01-09,114,Kindle Paperwhite,Fábio Moreira,Pix,Mariana,2,699.00
+2026-01-10,115,Smart TV Samsung 50",Patrícia Melo,Cartão,Roberto,1,2499.00
+2026-01-10,116,Air Fryer Philips,Renato Nunes,Boleto,João,3,799.00
+2026-01-11,117,Console Xbox Series S,Ana Souza,Pix,Mariana,2,2299.00
+2026-01-11,118,PlayStation 5,Pedro Lima,Cartão,Roberto,1,3999.00
+2026-01-12,119,Cafeteira Nespresso,Carlos Silva,Pix,João,5,599.00
+2026-01-12,120,Notebook Lenovo,Julia Santos,Boleto,Mariana,1,3199.00
+2026-01-13,121,Notebook Acer Aspire,Mariana Lopes,Cartão,Roberto,2,2899.00
+2026-01-13,122,Smartphone iPhone 14,Diego Martins,Pix,João,1,5999.00
+2026-01-14,123,Micro-ondas Electrolux,Luciana Prado,Boleto,Mariana,3,799.00
+2026-01-14,124,Relógio Casio,Gustavo Ramos,Cartão,Roberto,8,299.00
+2026-01-15,125,Drone DJI Mini 3,Patrícia Melo,Pix,João,1,3499.00
+2026-01-15,126,Kindle Oasis,Fernanda Costa,Boleto,Mariana,2,999.00
+2026-01-16,127,Smart TV LG 55",Carlos Silva,Cartão,Roberto,1,3199.00
+2026-01-16,128,Console Nintendo Switch,Pedro Lima,Pix,João,2,2299.00
+2026-01-17,129,Impressora Epson EcoTank,Ana Souza,Boleto,Mariana,3,1199.00
+2026-01-17,130,AirPods Pro,Julia Santos,Cartão,Roberto,4,1499.00
+2026-02-01,191,Smartphone Motorola Edge,Mariana Lopes,Pix,João,2,2899.00
+2026-02-01,192,Notebook HP Pavilion,Diego Martins,Cartão,Roberto,1,3999.00
+2026-02-02,193,Smart TV Sony 65",Luciana Prado,Boleto,Mariana,2,4999.00
+2026-02-02,194,Console Xbox Series X,Gustavo Ramos,Pix,João,1,4499.00
+2026-02-03,195,PlayStation 5 Slim,Patrícia Melo,Cartão,Roberto,2,4299.00
+2026-02-03,196,Drone DJI Air 2S,Fernanda Costa,Boleto,Mariana,1,5999.00
+2026-02-04,197,Kindle Paperwhite Signature,Carlos Silva,Pix,João,3,899.00
+2026-02-04,198,AirPods Max,Pedro Lima,Cartão,Roberto,2,3499.00
+2026-02-05,199,Monitor Samsung Curvo,Ana Souza,Boleto,Mariana,4,1799.00
+2026-02-05,200,Cafeteira Dolce Gusto,Julia Santos,Pix,João,6,699.00

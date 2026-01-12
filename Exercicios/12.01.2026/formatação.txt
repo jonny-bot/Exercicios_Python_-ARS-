@@ -1,0 +1,49 @@
+import pandas as pd
+
+df = pd.read_json('data/vendas.json')
+
+print(df.head())
+
+df['quantidade_vendida'] = df['quantidade_vendida'].astype(float)
+
+# Use .round() → quando ainda vai fazer cálculos.
+'''
+    .round()
+    O que faz: arredonda valores numéricos (float ou int) para o número de casas decimais que você escolher.
+    
+    Quando usar:
+    
+        Quando você quer manter os dados como números para cálculos posteriores.
+        
+        Exemplo: arredondar preços, totais, médias, etc.
+        
+    .round(2)
+'''
+
+# Use .map() → quando só precisa mostrar bonito (texto formatado).
+'''
+    .map()
+    O que faz: aplica uma função a cada elemento da coluna, podendo transformar os dados em qualquer tipo (inclusive string).
+    
+    Quando usar:
+    
+        Quando você quer formatar para exibição (ex.: mostrar sempre com duas casas decimais, adicionar símbolos, converter para texto).
+        
+        Exemplo: preparar dados para relatórios ou exportação.
+        
+    .map(lambda x: f'R$ {x:.2f}')
+    
+'''
+
+# mantém como número
+df['valor_total'] = (df['quantidade_vendida'] * df['preco_unitario']).round(2)
+
+# arredonda preco_unitario mas mantém como número
+df['preco_unitario'] = df['preco_unitario'].round(2)
+
+# calcula o total corretamente
+total_vendas = df['valor_total'].sum()
+
+# exibe formatado
+print(df)
+print(f'O Total de Vendas: R$ {total_vendas:.2f}')
