@@ -1,0 +1,402 @@
+[
+    {
+        "data_compra":"2026-01-02",
+        "id_produto":101,
+        "nome_produto":"Camiseta Polo",
+        "cliente":"Carlos Silva",
+        "pagamento":"Cartão",
+        "vendedor":"Mariana",
+        "quantidade_vendida":4,
+        "preco_unitario":79.9
+    },
+    {
+        "data_compra":"2026-01-03",
+        "id_produto":102,
+        "nome_produto":"Notebook Dell",
+        "cliente":"Ana Souza",
+        "pagamento":"Boleto",
+        "vendedor":"João",
+        "quantidade_vendida":1,
+        "preco_unitario":3499.0
+    },
+    {
+        "data_compra":"2026-01-03",
+        "id_produto":103,
+        "nome_produto":"Smartphone Samsung",
+        "cliente":"Pedro Lima",
+        "pagamento":"Pix",
+        "vendedor":"Mariana",
+        "quantidade_vendida":2,
+        "preco_unitario":2299.0
+    },
+    {
+        "data_compra":"2026-01-04",
+        "id_produto":104,
+        "nome_produto":"Mouse Gamer",
+        "cliente":"Julia Santos",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":7,
+        "preco_unitario":149.9
+    },
+    {
+        "data_compra":"2026-01-04",
+        "id_produto":105,
+        "nome_produto":"Teclado Mecânico",
+        "cliente":"Fernanda Costa",
+        "pagamento":"Cartão",
+        "vendedor":"Mariana",
+        "quantidade_vendida":3,
+        "preco_unitario":399.0
+    },
+    {
+        "data_compra":"2026-01-05",
+        "id_produto":106,
+        "nome_produto":"Fone Bluetooth",
+        "cliente":"Lucas Almeida",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":5,
+        "preco_unitario":299.0
+    },
+    {
+        "data_compra":"2026-01-05",
+        "id_produto":107,
+        "nome_produto":"Monitor LG",
+        "cliente":"Beatriz Rocha",
+        "pagamento":"Boleto",
+        "vendedor":"Roberto",
+        "quantidade_vendida":2,
+        "preco_unitario":899.0
+    },
+    {
+        "data_compra":"2026-01-06",
+        "id_produto":108,
+        "nome_produto":"Impressora HP",
+        "cliente":"Marcelo Dias",
+        "pagamento":"Cartão",
+        "vendedor":"Mariana",
+        "quantidade_vendida":3,
+        "preco_unitario":599.0
+    },
+    {
+        "data_compra":"2026-01-06",
+        "id_produto":109,
+        "nome_produto":"Cadeira Gamer",
+        "cliente":"Patrícia Melo",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":3,
+        "preco_unitario":1299.0
+    },
+    {
+        "data_compra":"2026-01-07",
+        "id_produto":110,
+        "nome_produto":"Tablet Apple",
+        "cliente":"Renato Nunes",
+        "pagamento":"Cartão",
+        "vendedor":"Mariana",
+        "quantidade_vendida":2,
+        "preco_unitario":2999.0
+    },
+    {
+        "data_compra":"2026-01-08",
+        "id_produto":111,
+        "nome_produto":"Smartwatch Garmin",
+        "cliente":"Carla Ferreira",
+        "pagamento":"Pix",
+        "vendedor":"Roberto",
+        "quantidade_vendida":1,
+        "preco_unitario":1599.0
+    },
+    {
+        "data_compra":"2026-01-08",
+        "id_produto":112,
+        "nome_produto":"Headset HyperX",
+        "cliente":"Diego Martins",
+        "pagamento":"Cartão",
+        "vendedor":"Mariana",
+        "quantidade_vendida":6,
+        "preco_unitario":499.0
+    },
+    {
+        "data_compra":"2026-01-09",
+        "id_produto":113,
+        "nome_produto":"HD Externo 1TB",
+        "cliente":"Luciana Prado",
+        "pagamento":"Boleto",
+        "vendedor":"João",
+        "quantidade_vendida":4,
+        "preco_unitario":349.0
+    },
+    {
+        "data_compra":"2026-01-09",
+        "id_produto":114,
+        "nome_produto":"Kindle Paperwhite",
+        "cliente":"Fábio Moreira",
+        "pagamento":"Pix",
+        "vendedor":"Mariana",
+        "quantidade_vendida":2,
+        "preco_unitario":699.0
+    },
+    {
+        "data_compra":"2026-01-10",
+        "id_produto":115,
+        "nome_produto":"Smart TV Samsung 50\"",
+        "cliente":"Patrícia Melo",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":1,
+        "preco_unitario":2499.0
+    },
+    {
+        "data_compra":"2026-01-10",
+        "id_produto":116,
+        "nome_produto":"Air Fryer Philips",
+        "cliente":"Renato Nunes",
+        "pagamento":"Boleto",
+        "vendedor":"João",
+        "quantidade_vendida":3,
+        "preco_unitario":799.0
+    },
+    {
+        "data_compra":"2026-01-11",
+        "id_produto":117,
+        "nome_produto":"Console Xbox Series S",
+        "cliente":"Ana Souza",
+        "pagamento":"Pix",
+        "vendedor":"Mariana",
+        "quantidade_vendida":2,
+        "preco_unitario":2299.0
+    },
+    {
+        "data_compra":"2026-01-11",
+        "id_produto":118,
+        "nome_produto":"PlayStation 5",
+        "cliente":"Pedro Lima",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":1,
+        "preco_unitario":3999.0
+    },
+    {
+        "data_compra":"2026-01-12",
+        "id_produto":119,
+        "nome_produto":"Cafeteira Nespresso",
+        "cliente":"Carlos Silva",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":5,
+        "preco_unitario":599.0
+    },
+    {
+        "data_compra":"2026-01-12",
+        "id_produto":120,
+        "nome_produto":"Notebook Lenovo",
+        "cliente":"Julia Santos",
+        "pagamento":"Boleto",
+        "vendedor":"Mariana",
+        "quantidade_vendida":1,
+        "preco_unitario":3199.0
+    },
+    {
+        "data_compra":"2026-01-13",
+        "id_produto":121,
+        "nome_produto":"Notebook Acer Aspire",
+        "cliente":"Mariana Lopes",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":2,
+        "preco_unitario":2899.0
+    },
+    {
+        "data_compra":"2026-01-13",
+        "id_produto":122,
+        "nome_produto":"Smartphone iPhone 14",
+        "cliente":"Diego Martins",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":1,
+        "preco_unitario":5999.0
+    },
+    {
+        "data_compra":"2026-01-14",
+        "id_produto":123,
+        "nome_produto":"Micro-ondas Electrolux",
+        "cliente":"Luciana Prado",
+        "pagamento":"Boleto",
+        "vendedor":"Mariana",
+        "quantidade_vendida":3,
+        "preco_unitario":799.0
+    },
+    {
+        "data_compra":"2026-01-14",
+        "id_produto":124,
+        "nome_produto":"Relógio Casio",
+        "cliente":"Gustavo Ramos",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":8,
+        "preco_unitario":299.0
+    },
+    {
+        "data_compra":"2026-01-15",
+        "id_produto":125,
+        "nome_produto":"Drone DJI Mini 3",
+        "cliente":"Patrícia Melo",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":1,
+        "preco_unitario":3499.0
+    },
+    {
+        "data_compra":"2026-01-15",
+        "id_produto":126,
+        "nome_produto":"Kindle Oasis",
+        "cliente":"Fernanda Costa",
+        "pagamento":"Boleto",
+        "vendedor":"Mariana",
+        "quantidade_vendida":2,
+        "preco_unitario":999.0
+    },
+    {
+        "data_compra":"2026-01-16",
+        "id_produto":127,
+        "nome_produto":"Smart TV LG 55\"",
+        "cliente":"Carlos Silva",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":1,
+        "preco_unitario":3199.0
+    },
+    {
+        "data_compra":"2026-01-16",
+        "id_produto":128,
+        "nome_produto":"Console Nintendo Switch",
+        "cliente":"Pedro Lima",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":2,
+        "preco_unitario":2299.0
+    },
+    {
+        "data_compra":"2026-01-17",
+        "id_produto":129,
+        "nome_produto":"Impressora Epson EcoTank",
+        "cliente":"Ana Souza",
+        "pagamento":"Boleto",
+        "vendedor":"Mariana",
+        "quantidade_vendida":3,
+        "preco_unitario":1199.0
+    },
+    {
+        "data_compra":"2026-01-17",
+        "id_produto":130,
+        "nome_produto":"AirPods Pro",
+        "cliente":"Julia Santos",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":4,
+        "preco_unitario":1499.0
+    },
+    {
+        "data_compra":"2026-02-01",
+        "id_produto":191,
+        "nome_produto":"Smartphone Motorola Edge",
+        "cliente":"Mariana Lopes",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":2,
+        "preco_unitario":2899.0
+    },
+    {
+        "data_compra":"2026-02-01",
+        "id_produto":192,
+        "nome_produto":"Notebook HP Pavilion",
+        "cliente":"Diego Martins",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":1,
+        "preco_unitario":3999.0
+    },
+    {
+        "data_compra":"2026-02-02",
+        "id_produto":193,
+        "nome_produto":"Smart TV Sony 65\"",
+        "cliente":"Luciana Prado",
+        "pagamento":"Boleto",
+        "vendedor":"Mariana",
+        "quantidade_vendida":2,
+        "preco_unitario":4999.0
+    },
+    {
+        "data_compra":"2026-02-02",
+        "id_produto":194,
+        "nome_produto":"Console Xbox Series X",
+        "cliente":"Gustavo Ramos",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":1,
+        "preco_unitario":4499.0
+    },
+    {
+        "data_compra":"2026-02-03",
+        "id_produto":195,
+        "nome_produto":"PlayStation 5 Slim",
+        "cliente":"Patrícia Melo",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":2,
+        "preco_unitario":4299.0
+    },
+    {
+        "data_compra":"2026-02-03",
+        "id_produto":196,
+        "nome_produto":"Drone DJI Air 2S",
+        "cliente":"Fernanda Costa",
+        "pagamento":"Boleto",
+        "vendedor":"Mariana",
+        "quantidade_vendida":1,
+        "preco_unitario":5999.0
+    },
+    {
+        "data_compra":"2026-02-04",
+        "id_produto":197,
+        "nome_produto":"Kindle Paperwhite Signature",
+        "cliente":"Carlos Silva",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":3,
+        "preco_unitario":899.0
+    },
+    {
+        "data_compra":"2026-02-04",
+        "id_produto":198,
+        "nome_produto":"AirPods Max",
+        "cliente":"Pedro Lima",
+        "pagamento":"Cartão",
+        "vendedor":"Roberto",
+        "quantidade_vendida":2,
+        "preco_unitario":3499.0
+    },
+    {
+        "data_compra":"2026-02-05",
+        "id_produto":199,
+        "nome_produto":"Monitor Samsung Curvo",
+        "cliente":"Ana Souza",
+        "pagamento":"Boleto",
+        "vendedor":"Mariana",
+        "quantidade_vendida":4,
+        "preco_unitario":1799.0
+    },
+    {
+        "data_compra":"2026-02-05",
+        "id_produto":200,
+        "nome_produto":"Cafeteira Dolce Gusto",
+        "cliente":"Julia Santos",
+        "pagamento":"Pix",
+        "vendedor":"João",
+        "quantidade_vendida":6,
+        "preco_unitario":699.0
+    }
+]
