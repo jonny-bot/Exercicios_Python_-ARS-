@@ -1,0 +1,21 @@
+ID,Nome,Idade,Data de Registro,Salário,Ativo,ID Departamento
+1,Maria Clara Cunha,27,2023-03-05,6747.76,True,4
+2,Luiz Gustavo Barros,18,2022-11-11,5990.81,False,3
+3,Maria Helena das Neves,19,2024-04-01,7588.55,False,5
+4,Ravy Camargo,36,2022-01-25,4341.11,False,4
+5,Cecilia Casa Grande,46,2022-10-30,5716.84,True,4
+6,Carolina Souza,62,2022-05-02,3305.85,False,4
+7,Mathias Souza,28,2024-05-02,9782.9,True,4
+8,Yago Gomes,28,2023-10-17,9615.18,True,1
+9,Natália Moraes,20,2022-10-03,2798.04,True,5
+10,João Miguel Caldeira,53,2024-03-12,8941.77,True,1
+11,Thales Monteiro,55,2022-05-20,7587.85,True,2
+12,Miguel Pacheco,61,2022-12-22,7690.91,False,2
+13,Léo da Conceição,40,2023-01-20,7552.6,True,3
+14,Aurora Carvalho,53,2022-03-27,2954.14,True,1
+15,Mathias Rocha,44,2024-01-18,9316.01,True,5
+16,Maria Liz Sampaio,34,2023-12-01,8334.63,False,2
+17,Arthur Gabriel Cassiano,42,2024-03-23,4275.55,False,4
+18,Joana Sousa,54,2023-05-20,5755.79,True,5
+19,Srta. Ana Lívia Silva,21,2023-11-19,7636.43,False,5
+20,Gustavo Castro,64,2022-02-04,3641.82,True,2
