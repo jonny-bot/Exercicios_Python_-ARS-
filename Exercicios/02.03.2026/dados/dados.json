@@ -1,0 +1,38 @@
+{
+  "empresa": "XYZ Corporation",
+  "fundacao": "2005-09-12",
+  "funcionarios": [
+    {
+      "nome": "João Silva",
+      "cargo": "Analista de Dados",
+      "salario": 5000
+    },
+    {
+      "nome": "Maria Santos",
+      "cargo": "Desenvolvedora",
+      "salario": 6000
+    },
+    {
+      "nome": "Pedro Pereira",
+      "cargo": "Gerente de Projetos",
+      "salario": 8000
+    }
+  ],
+  "projetos": [
+    {
+      "nome": "Projeto A",
+      "descricao": "Desenvolvimento de sistema de análise",
+      "status": "Em andamento"
+    },
+    {
+      "nome": "Projeto B",
+      "descricao": "Implementação de API",
+      "status": "Concluido"
+    },
+    {
+      "nome": "Projeto C",
+      "descricao": "Análise de requisitos",
+      "status": "Em andamento"
+    }
+  ]
+}

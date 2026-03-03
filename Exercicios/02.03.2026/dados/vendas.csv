@@ -1,0 +1,101 @@
+ID_Venda,Data,Produto,Categoria,Quantidade,Preço_Unitário,Cliente,Região,Método_Pagamento
+1,2026-01-01,Notebook Dell Inspiron,Eletrônicos,2,3500,João Silva,Sudeste,Cartão de Crédito
+2,2026-01-01,Smartphone Samsung Galaxy,Eletrônicos,1,2800,Maria Souza,Sul,Pix
+3,2026-01-02,Cadeira Gamer DXRacer,Móveis,3,1200,Carlos Lima,Norte,Boleto
+4,2026-01-02,Monitor LG 27'',Eletrônicos,2,1500,Ana Paula,Centro-Oeste,Cartão de Débito
+5,2026-01-03,Impressora HP LaserJet,Eletrônicos,1,950,Pedro Henrique,Sudeste,Cartão de Crédito
+6,2026-01-03,Mouse Logitech MX Master,Periféricos,4,350,Juliana Costa,Sul,Pix
+7,2026-01-04,Teclado Mecânico Redragon,Periféricos,5,280,Fernando Alves,Norte,Boleto
+8,2026-01-04,Smart TV LG 55'',Eletrônicos,1,3200,Patrícia Gomes,Sudeste,Cartão de Crédito
+9,2026-01-05,Tablet Apple iPad,Eletrônicos,2,4200,Lucas Ferreira,Sul,Pix
+10,2026-01-05,Armário de Escritório,Móveis,1,1800,Mariana Rocha,Centro-Oeste,Cartão de Débito
+11,2026-01-06,Notebook Lenovo ThinkPad,Eletrônicos,1,4100,Ricardo Santos,Sudeste,Cartão de Crédito
+12,2026-01-06,Smartphone iPhone 14,Eletrônicos,2,6200,Beatriz Almeida,Sul,Pix
+13,2026-01-07,Estante de Livros,Móveis,1,950,André Carvalho,Norte,Boleto
+14,2026-01-07,Headset HyperX Cloud,Periféricos,3,480,Cláudia Mendes,Sudeste,Cartão de Crédito
+15,2026-01-08,Smartwatch Apple Watch,Eletrônicos,2,2800,Daniel Oliveira,Sul,Pix
+16,2026-01-08,Notebook Acer Aspire,Eletrônicos,1,3300,Sofia Martins,Centro-Oeste,Cartão de Débito
+17,2026-01-09,Impressora Epson EcoTank,Eletrônicos,1,1200,Thiago Ribeiro,Sudeste,Cartão de Crédito
+18,2026-01-09,Mousepad Gamer XXL,Periféricos,6,120,Vanessa Lima,Sul,Pix
+19,2026-01-10,Teclado Razer BlackWidow,Periféricos,2,650,Marcelo Nunes,Norte,Boleto
+20,2026-01-10,Smart TV Samsung 65'',Eletrônicos,1,4800,Carolina Souza,Sudeste,Cartão de Crédito
+21,2026-01-11,Notebook Dell XPS,Eletrônicos,1,5200,Renata Azevedo,Sul,Pix
+22,2026-01-11,Smartphone Xiaomi Redmi,Eletrônicos,3,1500,Bruno Teixeira,Norte,Boleto
+23,2026-01-12,Estante de Madeira,Móveis,2,850,Helena Castro,Sudeste,Cartão de Crédito
+24,2026-01-12,Headset Logitech G733,Periféricos,1,780,Diego Almeida,Sul,Pix
+25,2026-01-13,Smartwatch Samsung Galaxy Watch,Eletrônicos,2,2100,Luana Ribeiro,Centro-Oeste,Cartão de Débito
+26,2026-01-13,Notebook Asus VivoBook,Eletrônicos,1,3400,Fábio Correia,Sudeste,Cartão de Crédito
+27,2026-01-14,Impressora Canon Pixma,Eletrônicos,1,890,Carla Mendes,Sul,Pix
+28,2026-01-14,Mouse Gamer Razer,Periféricos,2,420,Paulo Henrique,Norte,Boleto
+29,2026-01-15,Teclado Corsair K95,Periféricos,1,950,Isabela Rocha,Sudeste,Cartão de Crédito
+30,2026-01-15,Smart TV Sony 50'',Eletrônicos,1,3700,Leonardo Costa,Sul,Pix
+31,2026-01-16,Tablet Samsung Tab S8,Eletrônicos,2,3200,Marina Duarte,Centro-Oeste,Cartão de Débito
+32,2026-01-16,Armário de Aço,Móveis,1,2100,Thiago Oliveira,Sudeste,Cartão de Crédito
+33,2026-01-17,Notebook HP Envy,Eletrônicos,1,3900,Patrícia Lima,Sul,Pix
+34,2026-01-17,Smartphone Oppo Reno,Eletrônicos,2,2800,Rafael Gomes,Norte,Boleto
+35,2026-01-18,Cadeira de Escritório,Móveis,1,1200,Ana Beatriz,Sudeste,Cartão de Crédito
+36,2026-01-18,Headset SteelSeries Arctis,Periféricos,2,650,Lucas Almeida,Sul,Pix
+37,2026-01-19,Smartwatch Garmin Forerunner,Eletrônicos,1,2600,Juliana Ferreira,Centro-Oeste,Cartão de Débito
+38,2026-01-19,Notebook Samsung Book,Eletrônicos,1,3100,Marcelo Ribeiro,Sudeste,Cartão de Crédito
+39,2026-01-20,Impressora Brother Laser,Eletrônicos,1,1150,Carolina Souza,Sul,Pix
+40,2026-01-20,Mouse Microsoft Surface,Periféricos,3,280,Daniel Santos,Norte,Boleto
+41,2026-01-21,Teclado HyperX Alloy,Periféricos,2,520,Renata Costa,Sudeste,Cartão de Crédito
+42,2026-01-21,Smart TV Philips 43'',Eletrônicos,1,2900,Fernando Lima,Sul,Pix
+43,2026-01-22,Tablet Lenovo Tab M10,Eletrônicos,1,1800,Mariana Rocha,Centro-Oeste,Cartão de Débito
+44,2026-01-22,Estante de Aço,Móveis,1,1350,Pedro Henrique,Sudeste,Cartão de Crédito
+45,2026-01-23,Notebook Apple MacBook Air,Eletrônicos,1,7200,Ana Paula,Sul,Pix
+46,2026-01-23,Smartphone Realme GT,Eletrônicos,2,2400,Carlos Lima,Norte,Boleto
+47,2026-01-24,Cadeira Gamer ThunderX3,Móveis,1,1450,Juliana Costa,Sudeste,Cartão de Crédito
+48,2026-01-24,Headset Razer Kraken,Periféricos,2,580,Fernando Alves,Sul,Pix
+49,2026-01-25,Smartwatch Amazfit GTR,Eletrônicos,1,1200,Patrícia Gomes,Centro-Oeste,Cartão de Débito
+50,2026-01-25,Notebook Dell Latitude,Eletrônicos,1,4600,Lucas Ferreira,Sudeste,Cartão de Crédito
+51,2026-01-26,Smartphone Samsung Galaxy S23,Eletrônicos,1,5200,Mariana Silva,Sul,Pix
+52,2026-01-26,Notebook Lenovo Yoga,Eletrônicos,1,4800,João Pedro,Sudeste,Cartão de Crédito
+53,2026-01-27,Smartwatch Huawei Watch GT,Eletrônicos,2,1400,Ana Clara,Norte,Boleto
+54,2026-01-27,Monitor Samsung 32'',Eletrônicos,1,2100,Felipe Andrade,Sul,Pix
+55,2026-01-28,Teclado Mecânico Logitech,Periféricos,2,720,Laura Martins,Sudeste,Cartão de Crédito
+56,2026-01-28,Smart TV TCL 50'',Eletrônicos,1,2600,Thiago Costa,Centro-Oeste,Cartão de Débito
+57,2026-01-29,Tablet Microsoft Surface Go,Eletrônicos,1,3500,Beatriz Souza,Sul,Pix
+58,2026-01-29,Cadeira Gamer Cougar,Móveis,1,1350,Daniel Lima,Sudeste,Cartão de Crédito
+59,2026-01-30,Headset Astro A50,Periféricos,1,1200,Patrícia Rocha,Norte,Boleto
+60,2026-01-30,Notebook Acer Nitro,Eletrônicos,1,4200,Lucas Almeida,Sul,Pix
+61,2026-01-31,Smartphone Google Pixel 8,Eletrônicos,2,3900,Carolina Mendes,Sudeste,Cartão de Crédito
+62,2026-01-31,Impressora Epson L3250,Eletrônicos,1,1100,Ricardo Santos,Centro-Oeste,Cartão de Débito
+63,2026-02-01,Mouse Gamer Corsair,Periféricos,3,350,Juliana Costa,Sul,Pix
+64,2026-02-01,Smart TV Panasonic 55'',Eletrônicos,1,3100,Fernando Alves,Sudeste,Cartão de Crédito
+65,2026-02-02,Notebook Dell Vostro,Eletrônicos,1,3600,Paulo Henrique,Norte,Boleto
+66,2026-02-02,Smartwatch Fitbit Versa,Eletrônicos,2,950,Ana Paula,Sul,Pix
+67,2026-02-03,Teclado Gamer Redragon Kumara,Periféricos,4,280,Marcelo Nunes,Sudeste,Cartão de Crédito
+68,2026-02-03,Tablet Samsung Galaxy Tab A,Eletrônicos,1,1600,Mariana Rocha,Centro-Oeste,Cartão de Débito
+69,2026-02-04,Monitor LG UltraWide 34'',Eletrônicos,1,2700,Pedro Henrique,Sul,Pix
+70,2026-02-04,Cadeira de Escritório Ergonômica,Móveis,1,1250,Cláudia Mendes,Sudeste,Cartão de Crédito
+71,2026-02-05,Notebook Apple MacBook Pro,Eletrônicos,1,9800,Renata Azevedo,Sul,Pix
+72,2026-02-05,Smartphone Vivo X90,Eletrônicos,2,3100,Bruno Teixeira,Sudeste,Cartão de Crédito
+73,2026-02-06,Smartwatch Polar Vantage,Eletrônicos,1,1800,Helena Castro,Norte,Boleto
+74,2026-02-06,Monitor Dell 27'',Eletrônicos,1,1900,Diego Almeida,Sul,Pix
+75,2026-02-07,Teclado Mecânico Ducky One,Periféricos,2,680,Luana Ribeiro,Centro-Oeste,Cartão de Débito
+76,2026-02-07,Smart TV Hisense 55'',Eletrônicos,1,2800,Fábio Correia,Sudeste,Cartão de Crédito
+77,2026-02-08,Tablet Apple iPad Mini,Eletrônicos,1,3500,Carla Mendes,Sul,Pix
+78,2026-02-08,Cadeira Gamer Vertagear,Móveis,1,1600,Paulo Henrique,Norte,Boleto
+79,2026-02-09,Headset Turtle Beach Elite,Periféricos,1,950,Isabela Rocha,Sudeste,Cartão de Crédito
+80,2026-02-09,Notebook MSI Prestige,Eletrônicos,1,5400,Leonardo Costa,Sul,Pix
+81,2026-02-10,Smartphone OnePlus 12,Eletrônicos,2,3400,Marina Duarte,Sudeste,Cartão de Crédito
+82,2026-02-10,Impressora HP DeskJet,Eletrônicos,1,780,Thiago Oliveira,Centro-Oeste,Cartão de Débito
+83,2026-02-11,Mouse Gamer SteelSeries,Periféricos,3,420,Patrícia Lima,Sul,Pix
+84,2026-02-11,Smart TV Sharp 50'',Eletrônicos,1,2700,Rafael Gomes,Sudeste,Cartão de Crédito
+85,2026-02-12,Notebook Huawei MateBook,Eletrônicos,1,4100,Ana Beatriz,Norte,Boleto
+86,2026-02-12,Smartwatch Suunto 9,Eletrônicos,2,1600,Lucas Almeida,Sul,Pix
+87,2026-02-13,Teclado Gamer Cooler Master,Periféricos,4,300,Juliana Ferreira,Sudeste,Cartão de Crédito
+88,2026-02-13,Tablet Amazon Fire HD,Eletrônicos,1,950,Marcelo Ribeiro,Centro-Oeste,Cartão de Débito
+89,2026-02-14,Monitor AOC 24'',Eletrônicos,1,1200,Carolina Souza,Sul,Pix
+90,2026-02-14,Cadeira de Escritório Executiva,Móveis,1,1350,Daniel Santos,Norte,Boleto
+91,2026-02-15,Teclado Logitech K380,Periféricos,2,280,Renata Costa,Sudeste,Cartão de Crédito
+92,2026-02-15,Smart TV Toshiba 43'',Eletrônicos,1,2500,Fernando Lima,Sul,Pix
+93,2026-02-16,Tablet Asus ZenPad,Eletrônicos,1,1400,Mariana Rocha,Centro-Oeste,Cartão de Débito
+94,2026-02-16,Estante de Escritório,Móveis,1,1150,Pedro Henrique,Sudeste,Cartão de Crédito
+95,2026-02-09,Notebook HP Pavilion,Eletrônicos,1,3700,Laura Campos,Sul,Pix
+96,2026-02-09,Smartphone Motorola Edge,Eletrônicos,2,2600,Henrique Duarte,Norte,Boleto
+97,2026-02-10,Cadeira de Escritório,Móveis,1,1100,Isabela Freitas,Sudeste,Cartão de Crédito
+98,2026-02-10,Monitor Dell 24'',Eletrônicos,2,1400,Rafael Costa,Sul,Pix
+99,2026-02-10,Teclado Logitech G Pro,Periféricos,3,600,Aline Barbosa,Norte,Boleto
+100,2026-02-10,Relógio Smartwatch Xiaomi,Eletrônicos,3,750,Thiago Martins,Sudeste,Pix
