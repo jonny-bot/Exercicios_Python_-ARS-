@@ -1,0 +1,62 @@
+[
+  {
+    "tamanhos": "P",
+    "cores": "azul",
+    "tecidos": "algodão",
+    "categorias": "camiseta"
+  },
+  {
+    "tamanhos": "M",
+    "cores": "vermelho",
+    "tecidos": "couro",
+    "categorias": "calça"
+  },
+  {
+    "tamanhos": "P",
+    "cores": "azul",
+    "tecidos": "algodão",
+    "categorias": "camiseta"
+  },
+  {
+    "tamanhos": "G",
+    "cores": "verde",
+    "tecidos": "jeans",
+    "categorias": "calça"
+  },
+  {
+    "tamanhos": "M",
+    "cores": "vermelho",
+    "tecidos": "couro",
+    "categorias": "vestido"
+  },
+  {
+    "tamanhos": "G",
+    "cores": "azul",
+    "tecidos": "jeans",
+    "categorias": "vestido"
+  },
+  {
+    "tamanhos": "M",
+    "cores": "verde",
+    "tecidos": "algodão",
+    "categorias": "calça"
+  },
+  {
+    "tamanhos": "P",
+    "cores": "azul",
+    "tecidos": "couro",
+    "categorias": "camiseta"
+  },
+  {
+    "tamanhos": "M",
+    "cores": "vermelho",
+    "tecidos": "algodão",
+    "categorias": "vestido"
+  },
+  {
+    "tamanhos": "G",
+    "cores": "verde",
+    "tecidos": "algodão",
+    "categorias": "vestido"
+  }
+]
