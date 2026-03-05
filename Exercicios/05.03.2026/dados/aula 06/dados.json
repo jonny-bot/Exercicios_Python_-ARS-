@@ -1,0 +1,42 @@
+[  
+  {
+    "comprimentos": 100,
+    "palavras_chave": 0,
+    "links_externos": 3
+  },
+  {
+    "comprimentos": 300,
+    "palavras_chave": 1,
+    "links_externos": 1
+  },
+  {
+    "comprimentos": 200,
+    "palavras_chave": 0,
+    "links_externos": 2
+  },
+  {
+    "comprimentos": 150,
+    "palavras_chave": 1,
+    "links_externos": 0
+  },
+  {
+    "comprimentos": 250,
+    "palavras_chave": 1,
+    "links_externos": 4
+  },
+  {
+    "comprimentos": 180,
+    "palavras_chave": 0,
+    "links_externos": 1
+  },
+  {
+    "comprimentos": 220,
+    "palavras_chave": 0,
+    "links_externos": 0
+  },
+  {
+    "comprimentos": 280,
+    "palavras_chave": 1,
+    "links_externos": 2
+   }
+]

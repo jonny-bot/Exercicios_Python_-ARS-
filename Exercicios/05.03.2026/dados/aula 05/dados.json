@@ -1,0 +1,22 @@
+[
+  {
+    "notas": [7.2, 8.5],
+    "admissao": 1
+  },
+  {
+    "notas": [6.5, 6.9],
+    "admissao": 0
+  },
+  {
+    "notas": [8.1, 7.7],
+    "admissao": 1
+  },
+  {
+    "notas": [5.8, 5.3],
+    "admissao": 0
+  },
+  {
+    "notas": [9.2, 9.7],
+    "admissao": 1
+  }
+]
