@@ -1,0 +1,21 @@
+Código_ID,Produto,Categoria,Preço,Estoque
+101,Notebook,Eletrônicos,3500,25
+102,Celular,Eletrônicos,2200,40
+103,Impressora,Escritório,800,15
+104,Mesa Escritório,Móveis,1200,10
+105,Cadeira Gamer,Móveis,950,30
+106,Notebook,Eletrônicos,2083,16
+107,Celular,Eletrônicos,3308,38
+108,Impressora,Escritório,3431,40
+109,Mesa Escritório,Móveis,1402,40
+110,Cadeira Gamer,Móveis,1445,21
+111,Notebook,Eletrônicos,3392,38
+112,Celular,Eletrônicos,1422,22
+113,Impressora,Escritório,1591,26
+114,Mesa Escritório,Móveis,3918,46
+115,Cadeira Gamer,Móveis,2484,20
+116,Notebook,Eletrônicos,2183,39
+117,Celular,Eletrônicos,1814,47
+118,Impressora,Escritório,2407,32
+119,Mesa Escritório,Móveis,3893,15
+120,Cadeira Gamer,Móveis,3724,28
