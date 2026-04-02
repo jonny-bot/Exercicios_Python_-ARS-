@@ -1,0 +1,15 @@
+Data,Produto,Quantidade,Preço Unitário,Total,Cliente,Forma de Pagamento,Status da Entrega
+2026-04-01,Camiseta,3,49.90,149.70,Ana Silva,Cartão de Crédito,Entregue
+2026-04-01,Notebook,1,3500.00,3500.00,Carlos Souza,Boleto,Pendente
+2026-04-02,Mouse,2,79.90,159.80,Mariana Costa,Pix,Entregue
+2026-04-02,Monitor,1,899.00,899.00,Pedro Lima,Cartão de Débito,Em Transporte
+2026-04-03,Teclado,4,120.00,480.00,Fernanda Alves,Cartão de Crédito,Entregue
+2026-04-03,Smartphone,2,2500.00,5000.00,João Pereira,Pix,Entregue
+2026-04-04,Impressora,1,750.00,750.00,Lúcia Martins,Boleto,Pendente
+2026-04-04,Fone de Ouvido,5,199.90,999.50,Ricardo Gomes,Cartão de Crédito,Entregue
+2026-04-05,Tablet,2,1800.00,3600.00,Sofia Almeida,Pix,Em Transporte
+2026-04-05,HD Externo,3,320.00,960.00,Marcelo Dias,Cartão de Débito,Entregue
+2026-04-06,Smartwatch,1,1200.00,1200.00,Paula Ferreira,Cartão de Crédito,Entregue
+2026-04-06,Cadeira Gamer,1,1500.00,1500.00,Thiago Santos,Boleto,Pendente
+2026-04-07,Webcam,2,350.00,700.00,Juliana Rocha,Pix,Entregue
+2026-04-07,Microfone,1,499.00,499.00,Fábio Nunes,Cartão de Crédito,Em Transporte
