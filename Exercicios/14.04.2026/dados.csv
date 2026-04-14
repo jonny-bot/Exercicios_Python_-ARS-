@@ -1,0 +1,26 @@
+data_venda,id_pedido,produto,categoria,vendedor,regiao,quantidade,preco_unitario,valor_total,metodo_pagamento,status_pedido,observacao
+2024-02-01 09:15,P001,Notebook Dell,Eletrônicos,Carlos,Centro,1,3500,3500,Cartão,Concluído,ok
+2024-02-01 09:45,P002,Mouse Logitech,Eletrônicos,Ana,Zona Sul,2,80,160,Pix,Concluído,
+2024-02-01 10:10,P003,Cadeira Escritório,Móveis,João,Zona Norte,1,900,900,Boleto,Concluído,
+2024-02-01 10:30,P004,Teclado Mecânico,Eletrônicos,Ana,Zona Sul,,250,250,Cartão,Concluído,quantidade ausente
+2024-02-01 11:00,P005,Monitor 27",Eletrônicos,Carlos,Centro,1,1200,1200,Cartão,Cancelado,cliente desistiu
+2024-02-01 11:20,P006,Mesa Escritório,Móveis,João,Zona Norte,1,1500,1500,Boleto,Concluído,
+2024-02-01 12:00,P007,Notebook Dell,Eletrônicos,Carlos,Centro,1,3500,7000,Cartão,Concluído,valor duplicado
+2024-02-01 12:30,P008,Mouse Logitech,Eletrônicos,Ana,Zona Sul,5,80,400,Pix,Concluído,
+2024-02-01 13:00,P009,Headset Gamer,Eletrônicos,Ana,Zona Sul,1,300,300,Cartão,Concluído,
+2024-02-01 13:30,P010,Cadeira Escritório,Móveis,João,Zona Norte,2,900,1800,Boleto,Concluído,
+2024-02-01 14:00,P011,Notebook Dell,Eletrônicos,Carlos,Centro,1,0,0,Cartão,Concluído,preço zerado erro
+2024-02-01 14:30,P012,Monitor 27",Eletrônicos,Ana,Zona Sul,1,1200,1200,Pix,Devolvido,defeito
+2024-02-01 15:00,P013,Teclado Mecânico,Eletrônicos,Ana,Zona Sul,3,250,750,Cartão,Concluído,
+2024-02-01 15:30,P014,Mesa Escritório,Móveis,João,Zona Norte,1,1500,1500,Boleto,Concluído,
+2024-02-01 16:00,P015,Mouse Logitech,Eletrônicos,Carlos,Centro,10,80,800,Pix,Concluído,compra grande
+2024-02-01 16:30,P016,Headset Gamer,Eletrônicos,Ana,Zona Sul,2,300,600,Cartão,Concluído,
+2024-02-01 17:00,P017,Cadeira Escritório,Móveis,João,Zona Norte,-1,900,-900,Boleto,Concluído,valor inválido
+2024-02-01 17:30,P018,Notebook Dell,Eletrônicos,Carlos,Centro,1,3500,3500,Cartão,Concluído,
+2024-02-01 18:00,P019,Monitor 27",Eletrônicos,Ana,Zona Sul,2,1200,2400,Pix,Concluído,pico vendas
+2024-02-01 18:30,P020,Teclado Mecânico,Eletrônicos,Ana,Zona Sul,1,250,250,Cartão,Concluído,
+2024-02-01 19:00,P021,Mouse Logitech,Eletrônicos,Carlos,Centro,3,80,240,Pix,Concluído,
+2024-02-01 19:30,P022,Headset Gamer,Eletrônicos,Ana,Zona Sul,,300,300,Cartão,Concluído,sem quantidade
+2024-02-01 20:00,P023,Mesa Escritório,Móveis,João,Zona Norte,1,1500,1500,Boleto,Concluído,
+2024-02-01 20:30,P024,Cadeira Escritório,Móveis,João,Zona Norte,1,900,900,Boleto,Concluído,
+2024-02-01 21:00,P025,Notebook Dell,Eletrônicos,Carlos,Centro,1,3500,3500,Cartão,Concluído,ok
