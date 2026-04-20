@@ -1,0 +1,62 @@
+[
+    {
+        "id_produto": 1001,
+        "name": "Computador",
+        "preco": 2500.00,
+        "quantidade": 10
+    },
+    {
+        "id_produto": 1002,
+        "name": "Smartphone",
+        "preco": 1500.00,
+        "quantidade": 20
+    },
+    {
+        "id_produto": 1003,
+        "name": "Tablet",
+        "preco": 1200.00,
+        "quantidade": 15
+    },
+    {
+        "id_produto": 1004,
+        "name": "Monitor",
+        "preco": 800.00,
+        "quantidade": 5
+    },
+    {
+        "id_produto": 1005,
+        "name": "Teclado",
+        "preco": 100.00,
+        "quantidade": 50
+    },
+    {
+        "id_produto": 1006,
+        "name": "Mouse",
+        "preco": 50.00,
+        "quantidade": 100
+    },
+    {
+        "id_produto": 1007,
+        "name": "Impressora",
+        "preco": 600.00,
+        "quantidade": 8
+    },
+    {
+        "id_produto": 1008,
+        "name": "Roteador",
+        "preco": 200.00,
+        "quantidade": 25
+    },
+    {
+        "id_produto": 1009,
+        "name": "Fone de Ouvido",
+        "preco": 150.00,
+        "quantidade": 30
+    },
+    {
+        "id_produto": 1010,
+        "name": "Webcam",
+        "preco": 300.00,
+        "quantidade": 12
+    }
+]
