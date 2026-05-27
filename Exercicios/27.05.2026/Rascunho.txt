@@ -1,0 +1,7 @@
+Numero Mágico da Aposentadoria
+
+meta = 10.000
+
+inflacao = 0.005
+
+numero_magico = (meta + (meta * 0.20)) / 0.005
