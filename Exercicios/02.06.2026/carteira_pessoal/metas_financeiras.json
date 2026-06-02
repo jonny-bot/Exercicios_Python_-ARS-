@@ -1,0 +1,65 @@
+{
+  "meta_total": "R$ 7.264,00",
+  "metas": [
+    {
+      "mes": "Janeiro",
+      "valor": "R$ 93,13",
+      "pago": false
+    },
+    {
+      "mes": "Fevereiro",
+      "valor": "R$ 186,26",
+      "pago": false
+    },
+    {
+      "mes": "Março",
+      "valor": "R$ 279,38",
+      "pago": false
+    },
+    {
+      "mes": "Abril",
+      "valor": "R$ 372,51",
+      "pago": false
+    },
+    {
+      "mes": "Maio",
+      "valor": "R$ 465,64",
+      "pago": false
+    },
+    {
+      "mes": "Junho",
+      "valor": "R$ 558,77",
+      "pago": false
+    },
+    {
+      "mes": "Julho",
+      "valor": "R$ 651,90",
+      "pago": false
+    },
+    {
+      "mes": "Agosto",
+      "valor": "R$ 745,03",
+      "pago": false
+    },
+    {
+      "mes": "Setembro",
+      "valor": "R$ 838,15",
+      "pago": false
+    },
+    {
+      "mes": "Outubro",
+      "valor": "R$ 931,28",
+      "pago": false
+    },
+    {
+      "mes": "Novembro",
+      "valor": "R$ 1.024,41",
+      "pago": false
+    },
+    {
+      "mes": "Dezembro",
+      "valor": "R$ 1.117,54",
+      "pago": false
+    }
+  ]
+}

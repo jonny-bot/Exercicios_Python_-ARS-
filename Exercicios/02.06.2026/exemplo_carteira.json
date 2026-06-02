@@ -1,0 +1,55 @@
+{
+  "salario_mensal": "R$ 2.256,00",
+  "bancos": [
+    {
+    "banco": "Mercado Pago",
+    "saldo": "R$ 0,00"
+  },
+  {
+    "banco": "NuBank",
+    "saldo": "R$ 0,00"
+  },
+  {
+    "banco": "Caixa",
+    "saldo": "R$ 0,00"
+  },
+  {
+    "banco": "Santander",
+    "saldo": "0,00"
+  }
+  ],
+  "Gastos": [
+    {
+    "categoria": "Mercado Pago",
+    "valor": "R$ 0,00"
+  },
+  {
+    "categoria": "Academia",
+    "valor": "R$ 0,00"
+  },
+  {
+    "categoria": "Tim",
+    "valor": "R$ 0,00"
+  },
+  {
+    "categoria": "Pai",
+    "valor": "R$ 0,00"
+  },
+  {
+    "categoria": "Avó",
+    "valor": "R$ 0,00"
+  },
+  {
+    "categoria": "Agua",
+    "valor": "R$ 0,00"
+  },
+  {
+    "categoria": "Santa Helena",
+    "valor": "R$ 0,00"
+  },
+  {
+    "categoria": "Pós-Graduação",
+    "valor": "R$ 0,00"
+  }
+  ]
+}

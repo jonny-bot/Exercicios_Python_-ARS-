@@ -1,0 +1,22 @@
+[
+  {
+    "banco": "Mercado Pago",
+    "saldo": "R$ 0,00"
+  },
+  {
+    "banco": "NuBank",
+    "saldo": "R$ 0,00"
+  },
+  {
+    "banco": "Caixa",
+    "saldo": "R$ 0,00"
+  },
+  {
+    "banco": "Santander",
+    "saldo": "R$ 0,00"
+  },
+  {
+    "banco": "FGTS",
+    "saldo": "R$ 0,00"
+  }
+]
