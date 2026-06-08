@@ -1,0 +1,68 @@
+Quero que você padronize as telas do meu projeto Python:
+1. ui_juros_composto.py
+2. ui_juros_simples.py
+3. ui_primeiro_milhao.py
+
+Regras de padronização:
+- Todas devem ter a mesma estrutura de classe principal:
+  - UiJurosComposto
+  - UiJurosSimples
+  - UiPrimeiroMilhao
+- Cada classe deve conter:
+  - __init__ chamando setup_ui()
+  - setup_ui() para criar labels, inputs e botões
+  - métodos calcular(), limpar(), voltar()
+- Separar lógica de cálculo da interface (não misturar).
+- Imports organizados e consistentes.
+- Estilo visual aplicado de forma uniforme (se houver stylesheet, usar o mesmo padrão).
+- Callbacks de botões devem ter nomes iguais em todas as telas.
+- **A lógica de negócio de cada tela NÃO deve ser modificada. Apenas a estrutura da interface deve ser padronizada.**
+
+Template Base:
+
+# Imports organizados
+import sys
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout
+
+class UiBaseTela(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.setup_ui()
+
+    def setup_ui(self):
+        # Layout principal
+        layout = QVBoxLayout()
+
+        # Exemplo de elementos comuns
+        self.label_titulo = QLabel("Título da Tela")
+        self.input_valor = QLineEdit()
+        self.botao_calcular = QPushButton("Calcular")
+        self.botao_limpar = QPushButton("Limpar")
+        self.botao_voltar = QPushButton("Voltar")
+
+        # Adiciona ao layout
+        layout.addWidget(self.label_titulo)
+        layout.addWidget(self.input_valor)
+        layout.addWidget(self.botao_calcular)
+        layout.addWidget(self.botao_limpar)
+        layout.addWidget(self.botao_voltar)
+
+        self.setLayout(layout)
+
+        # Callbacks padronizados
+        self.botao_calcular.clicked.connect(self.calcular)
+        self.botao_limpar.clicked.connect(self.limpar)
+        self.botao_voltar.clicked.connect(self.voltar)
+
+    # Métodos padronizados
+    def calcular(self):
+        # ⚠️ Lógica de negócio específica da tela
+        # NÃO alterar, apenas implementar em cada arquivo
+        pass
+
+    def limpar(self):
+        self.input_valor.clear()
+
+    def voltar(self):
+        self.close()
+

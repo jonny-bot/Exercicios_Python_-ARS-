@@ -1,0 +1,34 @@
+[
+  {
+    "categoria": "Mercado Pago",
+    "valor": "R$ 1.000,00"
+  },
+  {
+    "categoria": "Academia",
+    "valor": "R$ 90,00"
+  },
+  {
+    "categoria": "Claro",
+    "valor": "R$ 60,00"
+  },
+  {
+    "categoria": "Pai",
+    "valor": "R$ 100,00"
+  },
+  {
+    "categoria": "Avó",
+    "valor": "R$ 150,00"
+  },
+  {
+    "categoria": "Agua",
+    "valor": "R$ 130,00"
+  },
+  {
+    "categoria": "Santa Helena",
+    "valor": "R$ 279,00"
+  },
+  {
+    "categoria": "Pós-Graduação",
+    "valor": "R$ 75,00"
+  }
+]
